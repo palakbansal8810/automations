@@ -1,0 +1,282 @@
+sender,message,date,timestamp,full_datetime,type,is_reply,quoted_sender,quoted_text
++91 99796 38667,Hello Sir Maine AI workflow ka pura kaam complete kar liya hai. Meri internal testing mein sab kuch sahi chal raha hai aur results accurate aa rahe hain. Maine screenshots attach kiye hain aap dekh lijiye. Aap jab bhi free honge mujhe message kar dijiyega. Main workflow ko publish kar dunga taaki aap live check kar sakein.,,,,incoming,False,,
++91 744 776 5224,Hii,1/23/2026,2:37 PM,"2:37 PM, 1/23/2026",incoming,False,,
+Unknown,Share ur previous projects,1/23/2026,2:38 PM,"2:38 PM, 1/23/2026",incoming,False,,
+Unknown,Here,1/23/2026,2:38 PM,"2:38 PM, 1/23/2026",incoming,False,,
+You,"Hi, These are the github repos of my previous projects: https://github.com/palakbansal8810/MedAutomate https://github.com/palakbansal8810/Inquiro https://github.com/palakbansal8810/district-wise-rating",1/23/2026,3:21 PM,"3:21 PM, 1/23/2026",outgoing,False,,
++91 99796 38667,WhatsApp order booking boat (Restaurant ),1/23/2026,4:31 PM,"4:31 PM, 1/23/2026",incoming,False,,
++91 99796 38667,RAG Agent,1/23/2026,4:32 PM,"4:32 PM, 1/23/2026",incoming,False,,
++91 99796 38667,Real estate RAG Agent,1/23/2026,4:33 PM,"4:33 PM, 1/23/2026",incoming,False,,
++91 99796 38667,Salon booking workflow,1/23/2026,4:34 PM,"4:34 PM, 1/23/2026",incoming,False,,
++91 99796 38667,Watch all projects in my GitHub https://github.com/rvmakvana1/n8n-automation-portfolio,1/23/2026,4:35 PM,"4:35 PM, 1/23/2026",incoming,False,,
+Unknown,Oky,1/23/2026,6:45 PM,"6:45 PM, 1/23/2026",incoming,False,,
+Unknown,@+91 744 776 5224 ink offer letter bej diye?,1/23/2026,6:45 PM,"6:45 PM, 1/23/2026",incoming,False,,
++91 744 776 5224,Ha,1/23/2026,6:59 PM,"6:59 PM, 1/23/2026",incoming,False,,
+Unknown,Oku,1/23/2026,7:17 PM,"7:17 PM, 1/23/2026",incoming,False,,
+Unknown,@+91 870 826 9340 will be ur senior If you guys need any technical help you can ask him,1/23/2026,7:18 PM,"7:18 PM, 1/23/2026",incoming,False,,
+Unknown,We will connect at 12,1/24/2026,10:12 AM,"10:12 AM, 1/24/2026",incoming,False,,
++91 99796 38667,Ok,1/24/2026,10:12 AM,"10:12 AM, 1/24/2026",incoming,False,,
+Unknown,We have to build similar app like this,1/24/2026,10:12 AM,"10:12 AM, 1/24/2026",incoming,False,,
+Unknown,https://memorae.ai/ Do analysis of this app,1/24/2026,10:12 AM,"10:12 AM, 1/24/2026",incoming,False,,
++91 744 776 5224,Yes,1/24/2026,10:14 AM,"10:14 AM, 1/24/2026",incoming,False,,
+You,Today?,1/24/2026,10:14 AM,"10:14 AM, 1/24/2026",outgoing,True,Ankur Sir Promope,We will connect at 12
+You,Okay,1/24/2026,10:21 AM,"10:21 AM, 1/24/2026",outgoing,True,Unknown,Yes
++91 99796 38667,Ok Done,1/24/2026,12:04 PM,"12:04 PM, 1/24/2026",incoming,False,,
+Unknown,Research done?,1/24/2026,12:04 PM,"12:04 PM, 1/24/2026",incoming,False,,
+You,Yes done,1/24/2026,12:04 PM,"12:04 PM, 1/24/2026",outgoing,True,Ankur Sir Promope,Research done?
+Unknown,Share how we can build it what we need,1/24/2026,12:05 PM,"12:05 PM, 1/24/2026",incoming,False,,
+You,No meet then?,1/24/2026,12:05 PM,"12:05 PM, 1/24/2026",outgoing,False,,
+Unknown,Meet h,1/24/2026,12:06 PM,"12:06 PM, 1/24/2026",incoming,False,,
+Unknown,Usi m share krna h,1/24/2026,12:06 PM,"12:06 PM, 1/24/2026",incoming,False,,
+Unknown,5 minutes,1/24/2026,12:06 PM,"12:06 PM, 1/24/2026",incoming,False,,
+You,Okay okay,1/24/2026,12:06 PM,"12:06 PM, 1/24/2026",outgoing,False,,
+Unknown,meet.google.com/kgj-kczp-wuy,1/24/2026,12:08 PM,"12:08 PM, 1/24/2026",incoming,False,,
+Unknown,Join,1/24/2026,12:08 PM,"12:08 PM, 1/24/2026",incoming,False,,
++91 99796 38667,"सर, Memorae का विश्लेषण करने के बाद, यह हमारा प्लान है: हम WhatsApp API को फ्रंटएंड के लिए यूज़ करेंगे। n8n और OpenAI (Whisper और GPT-4) को लॉजिक के लिए यूज़ करेंगे। और सबसे जरूरी, पुरानी यादें (Memory) सेव करने के लिए हम Supabase (Vector Database) का यूज़ करेंगे।",1/24/2026,12:08 PM,"12:08 PM, 1/24/2026",incoming,False,,
+Unknown,"Project Update: Introducing ""Memorae"" – My AI Second Brain Hello everyone, I took on a challenge to build a fully automated ""Second Brain"" system using n8n, OpenAI, and Pinecone. The goal was to create an intelligent assistant that doesn't just chat but actually manages my life. Here is the complete breakdown of the architecture shown in the video: Workflow 1: The Core Logic (Input & Processing) This workflow acts as the central nervous system. Intelligent Routing: When I send a text or voice note on Telegram, the AI analyzes the intent. Memory Integration (RAG): If it's a thought or idea, it saves it to Google Sheets (Backup) and Pinecone Vector Database (Long-term Memory) for future recall. Action Execution: If it's a command (e.g., ""Meeting at 11 PM""…",1/26/2026,12:03 AM,"12:03 AM, 1/26/2026",incoming,False,,
++91 99796 38667,"Project Update: Introducing ""Memorae"" – My AI Second Brain Hello everyone, I took on a challenge to build a fully automated ""Second Brain"" system using n8n, OpenAI, and Pinecone. The goal was to create an intelligent assistant that doesn't just chat but actually manages my life. Here is the complete breakdown of the architecture shown in the video: Workflow 1: The Core Logic (Input & Processing) This workflow acts as the central nervous system. Intelligent Routing: When I send a text or voice note on Telegram, the AI analyzes the intent. Memory Integration (RAG): If it's a thought or idea, it saves it to Google Sheets (Backup) and Pinecone Vector Database (Long-term Memory) for future recall. Action Execution: If it's a command (e.g., ""Meeting at 11 PM""…",1/26/2026,12:03 AM,"12:03 AM, 1/26/2026",incoming,False,,
+Unknown,Bot url do,1/26/2026,12:05 AM,"12:05 AM, 1/26/2026",incoming,False,,
++91 99796 38667,Ye bot maine publish nahi kiya hai. Ye abhi sirf mere personal n8n dashboard par hi chal raha hai.,1/26/2026,12:08 AM,"12:08 AM, 1/26/2026",incoming,False,,
+Unknown,Live kro,1/26/2026,12:12 AM,"12:12 AM, 1/26/2026",incoming,False,,
++91 99796 38667,"Sir, sach kahoon to abhi mere paas koi Cloud Server (VPS) nahi hai. Ye pura system abhi mere local laptop par hi chal raha hai. Mujhe n8n ko live server par host karne ka technical method abhi nahi pata hai. Filhal aap JSON file se ise apne system par try kar sakte hain.",1/26/2026,12:19 AM,"12:19 AM, 1/26/2026",incoming,False,,
+Ankur Sir Promope,Linux server de du apko?,1/26/2026,12:15 PM,"12:15 PM, 1/26/2026",incoming,True,Unknown,"Sir, sach kahoon to abhi mere paas koi Cloud Server (VPS) nahi hai. Ye pura system abhi mere local laptop par hi chal raha hai.
+Mujhe n8n ko live server par host karne ka technical method abhi nahi pata hai. 
+
+Filhal aap JSON file se ise apne system par try kar sakte hain."
+Unknown,@+91 870 826 9340 thoda help kr dena inka,1/26/2026,12:16 PM,"12:16 PM, 1/26/2026",incoming,False,,
+Unknown,Method dekhiye kse live krte h,1/26/2026,12:16 PM,"12:16 PM, 1/26/2026",incoming,False,,
++91 870 826 9340,got it!,1/26/2026,12:19 PM,"12:19 PM, 1/26/2026",incoming,True,Ankur Sir Promope,@+91 870 826 9340 thoda help kr dena inka
+Unknown,@Palak Bansal update?,1/26/2026,12:23 PM,"12:23 PM, 1/26/2026",incoming,False,,
+You,"Sir, I'm currently writing the entire code using langchain and langgraph, and some portion is left. Also, the Twilio API has a daily message limit, I'm working on it and will inform you once the entire part is completed",1/26/2026,12:31 PM,"12:31 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,@Palak Bansal update?
+You,Demo,1/26/2026,12:31 PM,"12:31 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,@Palak Bansal update?
+Unknown,Approx time we can expect from uh?,1/26/2026,12:32 PM,"12:32 PM, 1/26/2026",incoming,False,,
+You,For whatsapp messaging,1/26/2026,12:33 PM,"12:33 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,You need twillio ?
+Unknown,You need twillio ?,1/26/2026,12:33 PM,"12:33 PM, 1/26/2026",incoming,False,,
+Unknown,Tg use kr skte ho baki chizo k liye whatapp has the limit issue,1/26/2026,12:34 PM,"12:34 PM, 1/26/2026",incoming,True,You,For whatsapp messaging
+You,"Okay sir, will keep this in mind",1/26/2026,12:35 PM,"12:35 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,Tg use kr skte ho baki chizo k liye whatapp has the limit issue
+You,"Tomorrow evening, it'll be done",1/26/2026,12:36 PM,"12:36 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,Approx time we can expect from uh?
+Unknown,Oky if you need any help you can text here,1/26/2026,12:36 PM,"12:36 PM, 1/26/2026",incoming,False,,
+You,"Sure sir, thanks!",1/26/2026,12:37 PM,"12:37 PM, 1/26/2026",outgoing,False,,
++91 99796 38667,Main abhi project ke final deployment aur testing par kaam kar raha hoon. Jo chote-mote bugs the unhe fix kar raha hoon aur Linux server setup bhi figure out kar raha hoon taaki bot 24/7 smooth chale. Aaj shaam tak main poora project complete karke aapko handover kar dunga.,1/26/2026,1:50 PM,"1:50 PM, 1/26/2026",incoming,False,,
++91 99796 38667,"Mera AI Second Brain Bot poori tarah complete aur tested hai. Maine ise alag-alag users ke sath test kiya hai aur reminders perfectly kaam kar rahe hain. Bot Link: [ https://t.me/ranjit_memorae_bot ] Important Note: n8n par executions limited hone ki wajah se, main ise aaj 3 baje se 4 baje tak hi Active rakhunga. Please aap isi time ke badh cheak karna chaho to pahle muje msg kr dena taki me Workflow Publish kr du.",1/27/2026,3:08 PM,"3:08 PM, 1/27/2026",incoming,False,,
+Unknown,Working,1/27/2026,3:13 PM,"3:13 PM, 1/27/2026",incoming,False,,
+Unknown,Oky,1/27/2026,3:13 PM,"3:13 PM, 1/27/2026",incoming,False,,
++91 99796 38667,Thank you sir...,1/27/2026,3:13 PM,"3:13 PM, 1/27/2026",incoming,False,,
+Unknown,Good work,1/27/2026,3:16 PM,"3:16 PM, 1/27/2026",incoming,False,,
+Unknown,Now we will start this in second phase,1/27/2026,3:17 PM,"3:17 PM, 1/27/2026",incoming,False,,
+Unknown,Sent you in dm do that task,1/27/2026,3:18 PM,"3:18 PM, 1/27/2026",incoming,False,,
++91 99796 38667,Ok sir I am Ready,1/27/2026,3:18 PM,"3:18 PM, 1/27/2026",incoming,False,,
+Unknown,@Palak Bansal ?,1/27/2026,6:16 PM,"6:16 PM, 1/27/2026",incoming,False,,
+You,"Sir these are the demos, currently working on the deployment, I've used gemini flash 2.5 for the images",1/27/2026,6:19 PM,"6:19 PM, 1/27/2026",outgoing,False,,
+You,"The audio consists ""add bananas to the shopping list""",1/27/2026,6:19 PM,"6:19 PM, 1/27/2026",outgoing,False,,
+Unknown,Good work,1/27/2026,7:12 PM,"7:12 PM, 1/27/2026",incoming,False,,
+You,Thankyou sir!,1/27/2026,8:00 PM,"8:00 PM, 1/27/2026",outgoing,False,,
+Unknown,Share bot url,1/27/2026,10:06 PM,"10:06 PM, 1/27/2026",incoming,True,You,"The audio consists ""add bananas to the shopping list"""
+You,https://t.me/palaaaaa_bot,1/27/2026,11:08 PM,"11:08 PM, 1/27/2026",outgoing,True,Ankur Sir Promope,Share bot url
++91 99796 38667,"Hi , mujhe n8n AI Agent workflow mein ek help chahiye. Main RAG + OpenAI use karke ek 'Khata Book' bot bana raha hoon. Problem calculation logic mein aa rahi hai. Jab main bot se 'Total Expense' puchta hoon, to LLM un notes ko to sahi add kar leta hai jinmein 'Kharcha' word likha hota hai. Lekin wo context-based words jaise 'Udhaar' ya 'Diye' (Lent/Gave) ko ignore kar deta hai aur final total mein count nahi karta. Koi tips hain ki System Prompt ko kaise improve karoon taaki wo 'Udhaar/Diye' ko bhi expense maan kar total kare?",1/28/2026,6:01 PM,"6:01 PM, 1/28/2026",incoming,True,Ankur Sir Promope,"@+91 870 826 9340 will be ur senior 
+If you guys need any technical help you can ask him"
++91 744 776 5224,"Hi everyone, please share a quick update on what you worked on today and your current progress. Thank you! — Anchal HR Manager",1/28/2026,6:18 PM,"6:18 PM, 1/28/2026",incoming,False,,
++91 99796 38667,"Hi, aaj ka update: Phase 1 (Memory Bot): Ye successfully complete ho chuka hai. Phase 2 (Current Project): Almost done hai. Aaj maine Voice Transcription issue fix kar diya, ab bot Hinglish aur numbers perfectly samajh raha hai. Abhi bas Calculation Logic (Hisab) mein ek chhota sa issue hai jis par main work kar raha hoon. Ye fix hote hi mera ye Phase 2 bhi fully complete ho jayega.",1/28/2026,6:25 PM,"6:25 PM, 1/28/2026",incoming,True,Unknown,"Hi everyone, please share a quick update on what you worked on today and your current progress. Thank you!
+
+— Anchal
+HR Manager"
+Ankur Sir Promope,U need to train more,1/28/2026,6:26 PM,"6:26 PM, 1/28/2026",incoming,True,Unknown,"Hi , mujhe n8n AI Agent workflow mein ek help chahiye. 
+Main RAG + OpenAI use karke ek 'Khata Book' bot bana raha hoon. Problem calculation logic mein aa rahi hai.
+Jab main bot se 'Total Expense' puchta hoon, to LLM un notes ko to sahi add kar leta hai jinmein 'Kharcha' word likha hota hai. Lekin wo context-based words jaise 'Udhaar' ya 'Diye' (Lent/Gave) ko ignore kar deta hai aur final total mein count nahi karta.
+Koi tips hain ki System Prompt ko kaise improve karoon taaki wo 'Udhaar/Diye' ko bhi expense maan kar total kare?"
++91 99796 38667,Ji Sir,1/28/2026,6:26 PM,"6:26 PM, 1/28/2026",incoming,True,Ankur Sir Promope,U need to train more
+You,"Hi, I've worked on bot, updated the code and modified the changes, currently working on deploying it again on render",1/28/2026,6:28 PM,"6:28 PM, 1/28/2026",outgoing,True,Unknown,"Hi everyone, please share a quick update on what you worked on today and your current progress. Thank you!
+
+— Anchal
+HR Manager"
++91 99796 38667,Kya meri current Calculation error ke related thodi call pe bat ho sakti hai kisi expert se ? Aur me n8n ke if node me bhi ek logic ko achche se samajna chahta hu is liye.,1/28/2026,6:31 PM,"6:31 PM, 1/28/2026",incoming,False,,
+Unknown,Aj ho jyga? Sab,1/28/2026,6:32 PM,"6:32 PM, 1/28/2026",incoming,True,You,"Hi, I've worked on bot, updated the code and modified the changes, currently working on deploying it again on render"
+Ankur Sir Promope,Oky,1/28/2026,6:43 PM,"6:43 PM, 1/28/2026",incoming,True,Unknown,"Kya meri current Calculation error ke related thodi call pe bat ho sakti hai kisi expert se ?
+Aur me n8n ke if node me bhi ek logic ko achche se samajna chahta hu is liye."
++91 99796 38667,Thank you sir. kya jan sakta hu kitne baje ?,1/28/2026,6:45 PM,"6:45 PM, 1/28/2026",incoming,True,Ankur Sir Promope,Oky
+Unknown,Will tell wait,1/28/2026,6:46 PM,"6:46 PM, 1/28/2026",incoming,False,,
+Unknown,Ya fir idhr ss de do,1/28/2026,6:46 PM,"6:46 PM, 1/28/2026",incoming,False,,
+Unknown,Error ka,1/28/2026,6:46 PM,"6:46 PM, 1/28/2026",incoming,False,,
++91 99796 38667,Ok Sir Me bat karna chahta hu taki Real logic samaj saku.,1/28/2026,6:48 PM,"6:48 PM, 1/28/2026",incoming,True,Ankur Sir Promope,Will tell wait
++91 744 776 5224,"Good morning, team! What’s the plan for today?",1/29/2026,9:23 AM,"9:23 AM, 1/29/2026",incoming,False,,
++91 99796 38667,"Good morning Today's Plan: Debugging: Currently investigating the root cause of the calculation error (context retrieval) that occurred yesterday. Fix & Test: My priority is to identify the bug, fix the logic, and run final tests today. Will keep you posted on the progress.",1/29/2026,9:39 AM,"9:39 AM, 1/29/2026",incoming,False,,
++91 744 776 5224,Sure,1/29/2026,10:05 AM,"10:05 AM, 1/29/2026",incoming,False,,
++91 744 776 5224,@Palak Bansal,1/29/2026,10:21 AM,"10:21 AM, 1/29/2026",incoming,True,Unknown,"Good morning, team! What’s the plan for today?"
+You,"Good morning, everyone I will be focusing on addressing the bot's edge cases to ensure its stability and the delivery of appropriate responses to users",1/29/2026,11:27 AM,"11:27 AM, 1/29/2026",outgoing,False,,
++91 744 776 5224,"Team, share today’s work update.",1/29/2026,6:35 PM,"6:35 PM, 1/29/2026",incoming,False,,
++91 99796 38667,"Update : Audio Transcription wali problem ab puri tarah fix ho gayi hai aur Agent ko bhi maine kaafi train kar diya hai. Everything is working fine regarding that. Ab bas ye Calculation Logic wala aakhiri error bacha hai. Maine isko fix karne ke liye apni taraf se sabhi possible methods try kiye, lekin exact solution crack nahi ho paa raha hai. Mujhe lagta hai main koi logic miss kar raha hoon, isliye mujhe ispar thodi Expert Guidance ki zarurat hai. Agar me akela error and trial karta rahuga to zyada time lag jayega. Jab bhi aapke paas time ho ya aap available ho (Aaj ya kal) kya hum ek Short Call par connect kar sakte hain? Taaki main ise samajh kar project finally close kar sakun. Please let me know.",1/29/2026,7:17 PM,"7:17 PM, 1/29/2026",incoming,False,,
+Unknown,@+91 870 826 9340,1/29/2026,7:19 PM,"7:19 PM, 1/29/2026",incoming,False,,
+Unknown,Help kr do inka,1/29/2026,7:20 PM,"7:20 PM, 1/29/2026",incoming,False,,
+Unknown,Thoda,1/29/2026,7:20 PM,"7:20 PM, 1/29/2026",incoming,False,,
+Unknown,M kal tk busy hu thoda,1/29/2026,7:20 PM,"7:20 PM, 1/29/2026",incoming,False,,
++91 870 826 9340,Okay,1/29/2026,7:22 PM,"7:22 PM, 1/29/2026",incoming,True,Ankur Sir Promope,@+91 870 826 9340
+You,"Today, I worked on the reminders and payments system. I've refined the logic and managed them according to the previous context. Now, I need to add timing functionality so that it can provide responses with the time when shared and asked",1/29/2026,7:23 PM,"7:23 PM, 1/29/2026",outgoing,False,,
++91 99796 38667,Thanks,1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,True,Unknown,Okay
++91 870 826 9340,Okay,1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,False,,
++91 870 826 9340,"@+91 99796 38667 Today 08:30 PM ke baad ya fir kal connect kar lete h,",1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,True,Unknown,"Update : Audio Transcription wali problem ab puri tarah fix ho gayi hai aur Agent ko bhi maine kaafi train kar diya hai. Everything is working fine regarding that. 
+
+Ab bas ye Calculation Logic wala aakhiri error bacha hai. Maine isko fix karne ke liye apni taraf se sabhi possible methods try kiye, lekin exact solution crack nahi ho paa raha hai.
+
+Mujhe lagta hai main koi logic miss kar raha hoon, isliye mujhe ispar thodi Expert Guidance ki zarurat hai. Agar me akela error and trial karta rahuga to zyada time lag jayega.
+
+Jab bhi aapke paas time ho ya aap available ho (Aaj ya kal) kya hum ek Short Call par connect kar sakte hain? Taaki main ise samajh kar project finally close kar sakun.
+
+Please let me know."
++91 99796 38667,Today,1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,True,Unknown,"@+91 99796 38667 
+Today 08:30 PM ke baad ya fir kal connect kar lete h,"
+Unknown,08:30 Final ?,1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,False,,
++91 870 826 9340,Happy to support,1/29/2026,7:27 PM,"7:27 PM, 1/29/2026",incoming,True,Unknown,Thanks
++91 870 826 9340,@+91 99796 38667 join Call With Amit https://meet.google.com/dqw-zdtk-rqw,1/29/2026,8:33 PM,"8:33 PM, 1/29/2026",incoming,False,,
++91 99796 38667,ok,1/29/2026,8:36 PM,"8:36 PM, 1/29/2026",incoming,False,,
++91 870 826 9340,@Ankur Sir Promope Bot done ho gya,1/29/2026,10:46 PM,"10:46 PM, 1/29/2026",incoming,False,,
++91 99796 38667,"Hello Team, I am happy to update ki mera AI Accountant/Second Brain project ab finally 100% successfully work kar raha hai! A huge Thank You to Amit Sir for the guidance on the call. Unhone jo logic samjhaya aur jo System Prompt refine karke diya, usne magic ki tarah kaam kiya. Ab bot Hinglish inputs, Currency Conversion aur Udhaar/Expense Calculation sab kuch perfect kar raha hai. No more errors. The workflow is smooth now. Thanks everyone for the support!",1/29/2026,10:53 PM,"10:53 PM, 1/29/2026",incoming,False,,
++91 744 776 5224,Good morning team Drop your plan for today and the tasks you'll be working on.,1/30/2026,9:21 AM,"9:21 AM, 1/30/2026",incoming,False,,
+You,"Hi Team, Today's plan: I will work on the Hinglish and language parts of the bot so that it can understand input in Hinglish too.",1/30/2026,10:24 AM,"10:24 AM, 1/30/2026",outgoing,False,,
++91 99796 38667,Hello Team Update ye hai ki mera AI Accountant project ab puri tarah se complete ho gaya hai aur 100% sahi chal raha hai. Aaj maine isme ek major fix kiya hai. Pehle bot ko time samajhne mein dikkat ho rahi thi. Isko fix karne ke liye maine Pinecone node se pehle ek Edit Fields node add kiya hai. Ab har message ke sath Current Date aur Time automatically content mein hi save ho raha hai. Is wajah se ab bot Last 1 hour ya Aaj ka hisab ekdum sahi bata raha hai. Ab mera ye project complete hai. Please batayein ki agla step ya next task kya hai.,1/30/2026,5:53 PM,"5:53 PM, 1/30/2026",incoming,False,,
++91 744 776 5224,Good evening team. Share a brief update on today’s work.,1/30/2026,6:13 PM,"6:13 PM, 1/30/2026",incoming,False,,
+Ankur Sir Promope,Bot url share kro,1/30/2026,7:01 PM,"7:01 PM, 1/30/2026",incoming,True,Unknown,"Hello Team
+
+Update ye hai ki mera AI Accountant project ab puri tarah se complete ho gaya hai aur 100% sahi chal raha hai.
+
+Aaj maine isme ek major fix kiya hai. Pehle bot ko time samajhne mein dikkat ho rahi thi. Isko fix karne ke liye maine Pinecone node se pehle ek Edit Fields node add kiya hai.
+
+Ab har message ke sath Current Date aur Time automatically content mein hi save ho raha hai. Is wajah se ab bot Last 1 hour ya Aaj ka hisab ekdum sahi bata raha hai.
+
+Ab mera ye project complete hai. Please batayein ki agla step ya next task kya hai."
++91 99796 38667,@ranjit_memorae_bot,1/30/2026,7:03 PM,"7:03 PM, 1/30/2026",incoming,False,,
++91 99796 38667,https://t.me/ranjit_memorae_bot,1/30/2026,7:04 PM,"7:04 PM, 1/30/2026",incoming,False,,
+You,"Today, I worked on the hinglish side of the bot. Only the few changes are needed, then it will be working fine, kal tak complete ho jayega chatbot",1/30/2026,11:45 PM,"11:45 PM, 1/30/2026",outgoing,False,,
+Unknown,Aj khtm kro ye vala task,1/31/2026,9:12 AM,"9:12 AM, 1/31/2026",incoming,False,,
++91 744 776 5224,Good morning team. Share your plan for today.,1/31/2026,9:33 AM,"9:33 AM, 1/31/2026",incoming,False,,
++91 99796 38667,"My Plan for Today: Update on Yesterday's Issue: Post our 8:00 PM testing I analyzed the errors where the bot was failing to understand typos (like Hisab brao). I fixed this late last night. The bot's NLP model is now updated to correctly recognize short-context words and Hinglish typos. It is working perfectly now. Today's Goal: I am now focusing on the final 'Smart Reminder Logic'. Currently, there is a conflict where the bot captures the time but misses the calculation for future reminders. I will be fixing the Timezone Sync (IST) and connecting the calculation engine with the calendar today.",1/31/2026,9:56 AM,"9:56 AM, 1/31/2026",incoming,True,Unknown,Good morning team. Share your plan for today.
++91 744 776 5224,Good evening team. Share a brief update on today’s work.,1/31/2026,6:58 PM,"6:58 PM, 1/31/2026",incoming,False,,
++91 99796 38667,"Aaj ka update: Workflow almost ready hai! Bas abhi final testing chal rahi hai taaki alag-alag scenarios mein bhi bot perfect kaam kare AI Agent Ko Aur jyada trend kr rha hu. Raat tak system pura complete ho jayega. Aaj humne 2 naye features add kiye hain: Smart Delay System (Wait Node): Ab bot 5 min baad ya ruk ke jawab dene wali commands samajhta hai aur time par remind karta hai. Desi Language Support: Ab ye Hinglish (jaise aadha ghant, turant, brao) ko bhi perfectly samajh raha hai.",1/31/2026,7:27 PM,"7:27 PM, 1/31/2026",incoming,False,,
+You,"Good evening, everyone! The bot is almost ready. Today, I fixed the language and reminder issues in my bot. It's almost ready, using all free APIs and fixing almost every edge case. Currently, it's in the testing stage and will be completely deployed when all tests clear.",1/31/2026,8:23 PM,"8:23 PM, 1/31/2026",outgoing,False,,
++91 99796 38667,Ji,2/1/2026,3:45 PM,"3:45 PM, 2/1/2026",incoming,True,Unknown,"Hello Sir
+
+Maine AI workflow ka pura kaam complete kar liya hai. Meri internal testing mein sab kuch sahi chal raha hai aur results accurate aa rahe hain. Maine screenshots attach kiye hain aap dekh lijiye.
+
+Aap jab bhi free honge mujhe message kar dijiyega. Main workflow ko publish kar dunga taaki aap live check kar sakein."
+Unknown,Bhi rhta kya ism,2/1/2026,3:45 PM,"3:45 PM, 2/1/2026",incoming,False,,
+Unknown,Time stamp,2/1/2026,3:45 PM,"3:45 PM, 2/1/2026",incoming,False,,
+Unknown,Oky,2/1/2026,3:46 PM,"3:46 PM, 2/1/2026",incoming,False,,
++91 99796 38667,Haa,2/1/2026,3:46 PM,"3:46 PM, 2/1/2026",incoming,True,Ankur Sir Promope,Bhi rhta kya ism
+Unknown,Will check,2/1/2026,3:47 PM,"3:47 PM, 2/1/2026",incoming,False,,
++91 99796 38667,"Ok, Now Workflow is published.",2/1/2026,3:48 PM,"3:48 PM, 2/1/2026",incoming,False,,
++91 744 776 5224,Good morning team. Share your plan for today.,2/2/2026,9:13 AM,"9:13 AM, 2/2/2026",incoming,False,,
++91 99796 38667,Research : About Mass Level DM AI Automation Setup.,2/2/2026,9:36 AM,"9:36 AM, 2/2/2026",incoming,True,Unknown,Good morning team. Share your plan for today.
+Unknown,“Research about the thing I told you last night.”,2/2/2026,9:39 AM,"9:39 AM, 2/2/2026",incoming,False,,
++91 99796 38667,Ok sir,2/2/2026,9:41 AM,"9:41 AM, 2/2/2026",incoming,True,Ankur Sir Promope,“Research about the thing I told you last night.”
+You,Okay sir,2/2/2026,9:46 AM,"9:46 AM, 2/2/2026",outgoing,True,Ankur Sir Promope,“Research about the thing I told you last night.”
+Unknown,Update,2/2/2026,1:54 PM,"1:54 PM, 2/2/2026",incoming,False,,
+Unknown,Hlo @Palak Bansal @+91 99796 38667,2/2/2026,1:54 PM,"1:54 PM, 2/2/2026",incoming,False,,
+Unknown,Welcome @+91 62668 85103,2/2/2026,1:54 PM,"1:54 PM, 2/2/2026",incoming,False,,
++91 62668 85103,Thank you! Happy to be here,2/2/2026,3:32 PM,"3:32 PM, 2/2/2026",incoming,True,Ankur Sir Promope,Welcome @+91 62668 85103
+Unknown,We will connect at 5 PM today Be active at that time,2/2/2026,3:33 PM,"3:33 PM, 2/2/2026",incoming,False,,
+Unknown,All members,2/2/2026,3:33 PM,"3:33 PM, 2/2/2026",incoming,False,,
++91 62668 85103,Noted. I’ll be active at 5 PM.,2/2/2026,3:35 PM,"3:35 PM, 2/2/2026",incoming,True,Ankur Sir Promope,"We will connect at 5 PM today 
+Be active at that time"
++91 99796 38667,"Hello Sir, subah se main Mass DM Automation par research kar raha tha. Update ready hai Quick money or side hasal wali niche mein me Instagram per account Ban hone ka high risk hota Hai isliye work flow Ko Maine 3 step mein design Kiya Hai Pahla wala workflow n8n + Apify ka use karke data nikalega aur AI us data ko filter Karega ki user kis country ka hai aur kis category mein interest rakhta hai Aur dusra wala work flow use karke list mein se data utha kar gap rakhkar DM send Karega taki Instagram account ko koi problem Na Ho Main ismein conversational AI ko add karunga jab bhi user reply Karega hamara agent usse baat Karega unke sawalon ka jawab dega aur unhen global community group mein join karne ke liye link denga",2/2/2026,3:38 PM,"3:38 PM, 2/2/2026",incoming,True,Ankur Sir Promope,Update
++91 99796 38667,Ok sir,2/2/2026,3:38 PM,"3:38 PM, 2/2/2026",incoming,True,Ankur Sir Promope,"We will connect at 5 PM today 
+Be active at that time"
+You,Okay sir,2/2/2026,3:42 PM,"3:42 PM, 2/2/2026",outgoing,True,Ankur Sir Promope,"We will connect at 5 PM today 
+Be active at that time"
+Ankur Sir Promope,Try things other then ig Like fb wtsp Telegram,2/2/2026,3:42 PM,"3:42 PM, 2/2/2026",incoming,True,Unknown,"Hello Sir, subah se main Mass DM Automation par research kar raha tha. Update ready hai
+
+Quick money or side hasal wali niche mein me Instagram per account Ban hone ka high risk hota Hai isliye work flow Ko Maine 3 step mein design Kiya Hai 
+
+Pahla wala workflow n8n + Apify ka use karke data nikalega aur AI us data ko filter Karega  ki user kis country ka hai aur kis category mein interest rakhta hai
+
+Aur dusra wala work flow use karke list mein se data utha kar  gap rakhkar DM send Karega taki Instagram account ko koi problem Na Ho 
+
+Main ismein conversational AI ko add karunga jab bhi user reply Karega hamara agent usse baat Karega unke sawalon ka jawab dega aur unhen global community group mein join karne ke liye link denga"
+Unknown,Research on these things,2/2/2026,3:43 PM,"3:43 PM, 2/2/2026",incoming,False,,
+Unknown,And be ready with your report,2/2/2026,3:43 PM,"3:43 PM, 2/2/2026",incoming,False,,
++91 99796 38667,Ok,2/2/2026,3:44 PM,"3:44 PM, 2/2/2026",incoming,True,Ankur Sir Promope,"Try things other then ig 
+Like fb wtsp 
+Telegram"
++91 744 776 5224,"Hi everyone, Join the meeting using the link below: https://meet.google.com/dqw-zdtk-rqw",2/2/2026,4:49 PM,"4:49 PM, 2/2/2026",incoming,False,,
+Unknown,Join now,2/2/2026,4:49 PM,"4:49 PM, 2/2/2026",incoming,False,,
++91 744 776 5224,@+91 62668 85103 @+91 99796 38667,2/2/2026,4:50 PM,"4:50 PM, 2/2/2026",incoming,False,,
+You,Sir please share some money making telegram groups url,2/2/2026,5:16 PM,"5:16 PM, 2/2/2026",outgoing,False,,
+Unknown,Google p dalo keywords bht sare mileng,2/2/2026,5:17 PM,"5:17 PM, 2/2/2026",incoming,True,You,Sir please share some money making telegram groups url
+You,"Sir telegram se contact info nikalna toh mushkil hai, unki tg used id hi mil sakti hai",2/2/2026,5:23 PM,"5:23 PM, 2/2/2026",outgoing,False,,
+Unknown,I'd hi to chiy,2/2/2026,5:24 PM,"5:24 PM, 2/2/2026",incoming,True,You,"Sir telegram se contact info nikalna toh mushkil hai, unki tg used id hi mil sakti hai"
+Unknown,Usi ko msg kr skte h n,2/2/2026,5:24 PM,"5:24 PM, 2/2/2026",incoming,False,,
+Unknown,Ham,2/2/2026,5:24 PM,"5:24 PM, 2/2/2026",incoming,False,,
+You,Oh okay okay,2/2/2026,5:25 PM,"5:25 PM, 2/2/2026",outgoing,False,,
+You,sir groups like this https://web.telegram.org/a/#-1001303391607 right?,2/2/2026,5:39 PM,"5:39 PM, 2/2/2026",outgoing,False,,
++91 744 776 5224,Good evening team. Share a brief update on today’s work.,2/2/2026,6:32 PM,"6:32 PM, 2/2/2026",incoming,False,,
++91 99796 38667,1 ) Research : About Mass Level DM AI Automation Setup. 2 ) Meeting 3 ) Next Structure Planning About DM Automation,2/2/2026,6:48 PM,"6:48 PM, 2/2/2026",incoming,True,Unknown,Good evening team. Share a brief update on today’s work.
++91 744 776 5224,Good morning team. Share what you’ll be working on today.,2/3/2026,9:16 AM,"9:16 AM, 2/3/2026",incoming,False,,
++91 99796 38667,Update Telegram Lead Automation Project Kal Raat Ye Kaam kiya Python Script puri tarah fix ho gayi hai aur testing bhi successful rahi ab auto login ke liye Session Key generate ho gayi hai jisse hame baar baar OTP nahi dalna padega Aaj Ka Plan Aaj hum n8n workflow bild karenge taaki users ke reply aane par unhe auto reply ja sake iske alava Sir se first message ka content final karunga.,2/3/2026,9:46 AM,"9:46 AM, 2/3/2026",incoming,True,Unknown,Good morning team. Share what you’ll be working on today.
+You,I'll modify the scraped data according to the workflow made so that we can achieve our goal of Mass DM,2/3/2026,10:30 AM,"10:30 AM, 2/3/2026",outgoing,True,Unknown,Good morning team. Share what you’ll be working on today.
++91 744 776 5224,Good evening team. Share a quick update on what you worked on today.,2/3/2026,7:04 PM,"7:04 PM, 2/3/2026",incoming,False,,
++91 99796 38667,Aaj ka Work Update Aaj ka pura din humne deep research aur brainstorming me lagaya kyunki hume ek aisa solution chahiye tha jo long term chale aur safe ho Humne realize kiya ki agar hum direct personal number se automation karenge to risk bahut zyada hai isliye aaj humne ek best Architecture design kiya hai Is naye plan ke hisab se hum personal ID ko sirf Invite ke liye use karenge aur chatting ke liye user ko hamare AI Bot par shift kar denge isse fayda ye hoga ki hamara system 24/7 chalega bhale hi mera PC band ho aur account ban hone ka dar bhi nahi rahega Plan puri tarah ready hai aur ab me iska practically step 1 pr work start kar diya hai.,2/3/2026,7:34 PM,"7:34 PM, 2/3/2026",incoming,True,Unknown,Good evening team. Share a quick update on what you worked on today.
+You,"Maine dataset modify kiya tha and upgrade karne ka try kiya, currently I'm trying to scrape data from the Instagram too so that we can get users from other platform too",2/3/2026,7:57 PM,"7:57 PM, 2/3/2026",outgoing,True,Unknown,Good evening team. Share a quick update on what you worked on today.
++91 744 776 5224,Good morning. Share your plan for today in the group. Also make sure to respond in the group whenever any message is posted. — Anchal HR Manager,2/4/2026,9:55 AM,"9:55 AM, 2/4/2026",incoming,False,,
+Unknown,"Anurag, I didn’t receive your update yesterday.",2/4/2026,10:03 AM,"10:03 AM, 2/4/2026",incoming,False,,
++91 744 776 5224,@+91 62668 85103,2/4/2026,10:03 AM,"10:03 AM, 2/4/2026",incoming,True,Unknown,"Anurag, I didn’t receive your update yesterday."
++91 99796 38667,Good Morning. Today Work Plan Aaj ka work plan ye hai ki Ek Aesa AI Agent Bana rha hu jo users ke sath hamare diye hue instructions ke hisab se bat kre aur hamari global community me add kre aur Ye Agent Ko trend krunga aur last mein testing.,2/4/2026,10:06 AM,"10:06 AM, 2/4/2026",incoming,True,Unknown,"Good morning. Share your plan for today in the group. Also make sure to respond in the group whenever any message is posted.
+
+— Anchal
+HR Manager"
++91 62668 85103,Yes mam I will share my updated shortly,2/4/2026,10:08 AM,"10:08 AM, 2/4/2026",incoming,True,Unknown,"Good morning. Share your plan for today in the group. Also make sure to respond in the group whenever any message is posted.
+
+— Anchal
+HR Manager"
+Unknown,"Mam, I am working on an Autonomous AI Agent for Recruitment Automation. Currently, I am implementing MCP to enable agents to access external tools and applications for automation tasks.",2/4/2026,10:48 AM,"10:48 AM, 2/4/2026",incoming,False,,
++91 744 776 5224,"Hi team, share a quick update on today’s work.",2/4/2026,9:06 PM,"9:06 PM, 2/4/2026",incoming,False,,
++91 99796 38667,Today's Work 1 Meet With Ankursir 2 Reacherch about Lead Automation Project Tools 3 Bilding... workflow about Chat With users,2/4/2026,9:17 PM,"9:17 PM, 2/4/2026",incoming,True,Unknown,"Hi team, share a quick update on today’s work."
+You,Today's work Meet with team Tried to automate the messages Wrote a script for data extracting,2/5/2026,12:30 AM,"12:30 AM, 2/5/2026",outgoing,False,,
++91 744 776 5224,"Team, share today’s work plan.",2/5/2026,10:09 AM,"10:09 AM, 2/5/2026",incoming,False,,
++91 99796 38667,Aaj humara main focus Personal AI Automation system ko complete karne par rahega. Ek aisa advanced workflow develop karna jo incoming messages ko detect kare aur personally reply send kar sake. System ko train karna taaki wo context samajh kar smart aur human-like conversation kar sake. Goal : Aaj ek Automation ready karna jo automatically personal chat manage kare.,2/5/2026,10:22 AM,"10:22 AM, 2/5/2026",incoming,True,Unknown,"Team, share today’s work plan."
++91 744 776 5224,"Team, share today’s work update along with your progress.",2/5/2026,7:59 PM,"7:59 PM, 2/5/2026",incoming,False,,
++91 99796 38667,"Aaj mene apne AI Automation Project ke backend infrastructure aur n8n setup par kaam kiya. Core system successfully completed ho chuka hai. Lekin, Telegram API integration (MTProto) ke dauran ek unexpected technical glitch face karna pada. External plugin installation mein package corruption ki wajah se module sahi tarike se load nahi ho raha hai. mene pichle 7-8 ghante extensive debugging aur root cause analysis mein lagaye hain. Aakhri Step pe atak gya hu, aur me isse resolve karne ke liye alternative solutions par kaam kar raha hain. Abhi mai aesa tool find kr rha hu ki jo Groups me jake active users ko automatic DM kar sake Abhi Aisa Koi tool ya workflow banane ke bare mein thinking kar raha hun ki jo directly users se chat kar sake automation per. Thank you for your patience",2/5/2026,8:07 PM,"8:07 PM, 2/5/2026",incoming,True,Unknown,"Team, share today’s work update along with your progress."
+You,Today I wrote a script for automating messages to users on telegram using selenium,2/5/2026,11:52 PM,"11:52 PM, 2/5/2026",outgoing,False,,
+Unknown,"Good Morning team, share today’s work plan.",2/6/2026,9:43 AM,"9:43 AM, 2/6/2026",incoming,False,,
++91 744 776 5224,"@+91 62668 85103, I didn’t receive your update yesterday.",2/6/2026,9:43 AM,"9:43 AM, 2/6/2026",incoming,False,,
++91 99796 38667,Aaj ek aesa Automation create krna hai jo telegram mein users se personal chat kr sake.,2/6/2026,10:05 AM,"10:05 AM, 2/6/2026",incoming,True,Unknown,"Good Morning team, share today’s work plan."
++91 744 776 5224,@+91 62668 85103 ?,2/6/2026,10:20 AM,"10:20 AM, 2/6/2026",incoming,False,,
+You,I have to scrape messages from Facebook and whatsapp groups,2/6/2026,10:32 AM,"10:32 AM, 2/6/2026",outgoing,True,Unknown,"Good Morning team, share today’s work plan."
++91 62668 85103,"Ma’am, I am currently working on MCP servers to integrate them with the chatbot and build an automation system.",2/6/2026,12:52 PM,"12:52 PM, 2/6/2026",incoming,True,Unknown,"Good Morning team, share today’s work plan."
++91 744 776 5224,"Hi team, share a update on today’s work.",2/6/2026,6:40 PM,"6:40 PM, 2/6/2026",incoming,False,,
++91 99796 38667,Today's Work Today I work on Lead Automation chat. Explore Different ways of Automation.,2/6/2026,9:20 PM,"9:20 PM, 2/6/2026",incoming,True,Unknown,"Hi team, share a update on today’s work."
+You,"Today I tried to extract data from Facebook groups, I was searching for an API that I could directly use",2/6/2026,9:57 PM,"9:57 PM, 2/6/2026",outgoing,True,Unknown,"Hi team, share a update on today’s work."
+Ankur Sir Promope,https://www.udemy.com/course/ai-hr-agents-no-code-hr-automation-on-chatgpt-and-more-en/?couponCode=PAPAHR_FEB_05,2/6/2026,10:16 PM,"10:16 PM, 2/6/2026",incoming,True,Unknown,"Ma’am, I am currently working on MCP servers to integrate them with the chatbot and build an automation system."
++91 744 776 5224,"Team, share your plan for today.",2/7/2026,10:19 AM,"10:19 AM, 2/7/2026",incoming,False,,
++91 99796 38667,Today's Work Plan 1 ) Problem solve about Personal chat Automation. 2) Meet With Sir.,2/7/2026,10:31 AM,"10:31 AM, 2/7/2026",incoming,True,Unknown,"Team, share your plan for today."
+Unknown,Solve kro project fr ap logo ko ek trip krwate h,2/7/2026,7:38 PM,"7:38 PM, 2/7/2026",incoming,False,,
+Unknown,@+91 870 826 9340 Connect meet today too much time gone,2/7/2026,7:39 PM,"7:39 PM, 2/7/2026",incoming,False,,
+Unknown,@+91 62668 85103 update what you are doing?,2/7/2026,7:39 PM,"7:39 PM, 2/7/2026",incoming,False,,
++91 744 776 5224,"Team, share your plan for today.",2/9/2026,10:21 AM,"10:21 AM, 2/9/2026",incoming,False,,
++91 99796 38667,Today's Work Testing And Improve of Leads Automation AI Agent.,2/9/2026,10:44 AM,"10:44 AM, 2/9/2026",incoming,True,Unknown,"Team, share your plan for today."
+You,"Today, I'll be working on scraping data from Facebook groups",2/9/2026,10:55 AM,"10:55 AM, 2/9/2026",outgoing,True,Unknown,"Team, share your plan for today."
+Unknown,Asa KCH set kriy,2/9/2026,12:52 PM,"12:52 PM, 2/9/2026",incoming,False,,
+Unknown,https://www.facebook.com/share/r/17KmQhiZyj/,2/9/2026,12:52 PM,"12:52 PM, 2/9/2026",incoming,False,,
+Unknown,@Palak Bansal update,2/9/2026,7:22 PM,"7:22 PM, 2/9/2026",incoming,False,,
+Unknown,@+91 744 776 5224 @+91 62668 85103 is not working properly kindly do the needful,2/9/2026,7:23 PM,"7:23 PM, 2/9/2026",incoming,False,,
+You,Sir scraping of facebook groups post is done,2/9/2026,7:53 PM,"7:53 PM, 2/9/2026",outgoing,True,Ankur Sir Promope,@Palak Bansal update
++91 744 776 5224,"Good morning team, share your plan for today.",2/10/2026,10:20 AM,"10:20 AM, 2/10/2026",incoming,False,,
++91 99796 38667,"Hello Aaj main wo ""Repeat Message"" wali problem fix kar raha hu. Maine system mein ek Permanent Memory (Record File) add kar di hai. Ab system ko hamesha yaad rahega ki kisko message bhej chuka hai. Agli baar start karne par wo unhe Skip kar dega aur sirf naye logo ko hi message bhejega. Ab duplicate message ki galti nahi hogi. System full smart ho gaya hai!",2/10/2026,11:34 AM,"11:34 AM, 2/10/2026",incoming,True,Unknown,"Good morning team, share your plan for today."
++91 744 776 5224,"Hi team, share a update on today’s work. @+91 62668 85103 @Palak Bansal @+91 99796 38667",2/10/2026,6:27 PM,"6:27 PM, 2/10/2026",incoming,False,,
++91 99796 38667,"Aaj maine wo Repeat Message wali galti (error) fix kar di hai. System mein ab ek Permanent Memory laga di hai. Isse system ko yaad rahega ki kisko message bhej chuka hai, aur wo unhe Skip kar dega. Ab purane logon ko dobara message nahi jayega.",2/10/2026,7:54 PM,"7:54 PM, 2/10/2026",incoming,True,Unknown,"Hi team, share a update on today’s work.
+@+91 62668 85103 @Palak Bansal @+91 99796 38667"
+Unknown,"Subject: Leave Request: Feb 11-13 (Brothers' Wedding) Hi Sir, I would like to inform you that I will be on leave from Feb 11th to Feb 13th due to my brothers' wedding. I will be back online on Feb 14th. Thanks, Ranjit Makvana",2/10/2026,8:03 PM,"8:03 PM, 2/10/2026",incoming,False,,
++91 744 776 5224,"Team, share your work plan for today.",2/11/2026,10:03 AM,"10:03 AM, 2/11/2026",incoming,False,,
++91 744 776 5224,"Hi Ranjit, Noted. Your leave from Feb 11–13 is approved. See you back on Feb 14.",2/11/2026,10:05 AM,"10:05 AM, 2/11/2026",incoming,True,Unknown,"Subject: Leave Request: Feb 11-13 (Brothers' Wedding)
+
+Hi Sir,
+
+I would like to inform you that I will be on leave from Feb 11th to Feb 13th due to my brothers' wedding.
+
+I will be back online on Feb 14th.
+
+Thanks,
+Ranjit Makvana"
+Unknown,"Hi @+91 62668 85103, We’ve noticed that your responses have been a bit irregular lately, and some tasks are getting delayed. Please take this seriously and try to stay more consistent with communication and timelines. It really helps the team stay on track.",2/11/2026,10:38 AM,"10:38 AM, 2/11/2026",incoming,False,,
++91 744 776 5224,"Hi team, share a update on today’s work.",2/11/2026,6:29 PM,"6:29 PM, 2/11/2026",incoming,False,,
+Unknown,"Good morning, team. Kindly share your plan for today.",2/12/2026,9:47 AM,"9:47 AM, 2/12/2026",incoming,False,,
++91 744 776 5224,@Palak Bansal yesterday update.,2/12/2026,9:47 AM,"9:47 AM, 2/12/2026",incoming,False,,
+You,"Yesterday I worked on the Instagram scraping part, extracting mails from users bio",2/12/2026,11:01 AM,"11:01 AM, 2/12/2026",outgoing,True,Unknown,@Palak Bansal yesterday update.
+You,"Today I will be adding the code in the rdp, and will connect with sir",2/12/2026,11:02 AM,"11:02 AM, 2/12/2026",outgoing,True,Unknown,"Good morning, team. Kindly share your plan for today."
