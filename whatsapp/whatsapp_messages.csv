@@ -1,282 +1,277 @@
-sender,message,date,timestamp,full_datetime,type,is_reply,quoted_sender,quoted_text
-+91 99796 38667,Hello Sir Maine AI workflow ka pura kaam complete kar liya hai. Meri internal testing mein sab kuch sahi chal raha hai aur results accurate aa rahe hain. Maine screenshots attach kiye hain aap dekh lijiye. Aap jab bhi free honge mujhe message kar dijiyega. Main workflow ko publish kar dunga taaki aap live check kar sakein.,,,,incoming,False,,
-+91 744 776 5224,Hii,1/23/2026,2:37 PM,"2:37 PM, 1/23/2026",incoming,False,,
-Unknown,Share ur previous projects,1/23/2026,2:38 PM,"2:38 PM, 1/23/2026",incoming,False,,
-Unknown,Here,1/23/2026,2:38 PM,"2:38 PM, 1/23/2026",incoming,False,,
-You,"Hi, These are the github repos of my previous projects: https://github.com/palakbansal8810/MedAutomate https://github.com/palakbansal8810/Inquiro https://github.com/palakbansal8810/district-wise-rating",1/23/2026,3:21 PM,"3:21 PM, 1/23/2026",outgoing,False,,
-+91 99796 38667,WhatsApp order booking boat (Restaurant ),1/23/2026,4:31 PM,"4:31 PM, 1/23/2026",incoming,False,,
-+91 99796 38667,RAG Agent,1/23/2026,4:32 PM,"4:32 PM, 1/23/2026",incoming,False,,
-+91 99796 38667,Real estate RAG Agent,1/23/2026,4:33 PM,"4:33 PM, 1/23/2026",incoming,False,,
-+91 99796 38667,Salon booking workflow,1/23/2026,4:34 PM,"4:34 PM, 1/23/2026",incoming,False,,
-+91 99796 38667,Watch all projects in my GitHub https://github.com/rvmakvana1/n8n-automation-portfolio,1/23/2026,4:35 PM,"4:35 PM, 1/23/2026",incoming,False,,
-Unknown,Oky,1/23/2026,6:45 PM,"6:45 PM, 1/23/2026",incoming,False,,
-Unknown,@+91 744 776 5224 ink offer letter bej diye?,1/23/2026,6:45 PM,"6:45 PM, 1/23/2026",incoming,False,,
-+91 744 776 5224,Ha,1/23/2026,6:59 PM,"6:59 PM, 1/23/2026",incoming,False,,
-Unknown,Oku,1/23/2026,7:17 PM,"7:17 PM, 1/23/2026",incoming,False,,
-Unknown,@+91 870 826 9340 will be ur senior If you guys need any technical help you can ask him,1/23/2026,7:18 PM,"7:18 PM, 1/23/2026",incoming,False,,
-Unknown,We will connect at 12,1/24/2026,10:12 AM,"10:12 AM, 1/24/2026",incoming,False,,
-+91 99796 38667,Ok,1/24/2026,10:12 AM,"10:12 AM, 1/24/2026",incoming,False,,
-Unknown,We have to build similar app like this,1/24/2026,10:12 AM,"10:12 AM, 1/24/2026",incoming,False,,
-Unknown,https://memorae.ai/ Do analysis of this app,1/24/2026,10:12 AM,"10:12 AM, 1/24/2026",incoming,False,,
-+91 744 776 5224,Yes,1/24/2026,10:14 AM,"10:14 AM, 1/24/2026",incoming,False,,
-You,Today?,1/24/2026,10:14 AM,"10:14 AM, 1/24/2026",outgoing,True,Ankur Sir Promope,We will connect at 12
-You,Okay,1/24/2026,10:21 AM,"10:21 AM, 1/24/2026",outgoing,True,Unknown,Yes
-+91 99796 38667,Ok Done,1/24/2026,12:04 PM,"12:04 PM, 1/24/2026",incoming,False,,
-Unknown,Research done?,1/24/2026,12:04 PM,"12:04 PM, 1/24/2026",incoming,False,,
-You,Yes done,1/24/2026,12:04 PM,"12:04 PM, 1/24/2026",outgoing,True,Ankur Sir Promope,Research done?
-Unknown,Share how we can build it what we need,1/24/2026,12:05 PM,"12:05 PM, 1/24/2026",incoming,False,,
-You,No meet then?,1/24/2026,12:05 PM,"12:05 PM, 1/24/2026",outgoing,False,,
-Unknown,Meet h,1/24/2026,12:06 PM,"12:06 PM, 1/24/2026",incoming,False,,
-Unknown,Usi m share krna h,1/24/2026,12:06 PM,"12:06 PM, 1/24/2026",incoming,False,,
-Unknown,5 minutes,1/24/2026,12:06 PM,"12:06 PM, 1/24/2026",incoming,False,,
-You,Okay okay,1/24/2026,12:06 PM,"12:06 PM, 1/24/2026",outgoing,False,,
-Unknown,meet.google.com/kgj-kczp-wuy,1/24/2026,12:08 PM,"12:08 PM, 1/24/2026",incoming,False,,
-Unknown,Join,1/24/2026,12:08 PM,"12:08 PM, 1/24/2026",incoming,False,,
-+91 99796 38667,"सर, Memorae का विश्लेषण करने के बाद, यह हमारा प्लान है: हम WhatsApp API को फ्रंटएंड के लिए यूज़ करेंगे। n8n और OpenAI (Whisper और GPT-4) को लॉजिक के लिए यूज़ करेंगे। और सबसे जरूरी, पुरानी यादें (Memory) सेव करने के लिए हम Supabase (Vector Database) का यूज़ करेंगे।",1/24/2026,12:08 PM,"12:08 PM, 1/24/2026",incoming,False,,
-Unknown,"Project Update: Introducing ""Memorae"" – My AI Second Brain Hello everyone, I took on a challenge to build a fully automated ""Second Brain"" system using n8n, OpenAI, and Pinecone. The goal was to create an intelligent assistant that doesn't just chat but actually manages my life. Here is the complete breakdown of the architecture shown in the video: Workflow 1: The Core Logic (Input & Processing) This workflow acts as the central nervous system. Intelligent Routing: When I send a text or voice note on Telegram, the AI analyzes the intent. Memory Integration (RAG): If it's a thought or idea, it saves it to Google Sheets (Backup) and Pinecone Vector Database (Long-term Memory) for future recall. Action Execution: If it's a command (e.g., ""Meeting at 11 PM""…",1/26/2026,12:03 AM,"12:03 AM, 1/26/2026",incoming,False,,
-+91 99796 38667,"Project Update: Introducing ""Memorae"" – My AI Second Brain Hello everyone, I took on a challenge to build a fully automated ""Second Brain"" system using n8n, OpenAI, and Pinecone. The goal was to create an intelligent assistant that doesn't just chat but actually manages my life. Here is the complete breakdown of the architecture shown in the video: Workflow 1: The Core Logic (Input & Processing) This workflow acts as the central nervous system. Intelligent Routing: When I send a text or voice note on Telegram, the AI analyzes the intent. Memory Integration (RAG): If it's a thought or idea, it saves it to Google Sheets (Backup) and Pinecone Vector Database (Long-term Memory) for future recall. Action Execution: If it's a command (e.g., ""Meeting at 11 PM""…",1/26/2026,12:03 AM,"12:03 AM, 1/26/2026",incoming,False,,
-Unknown,Bot url do,1/26/2026,12:05 AM,"12:05 AM, 1/26/2026",incoming,False,,
-+91 99796 38667,Ye bot maine publish nahi kiya hai. Ye abhi sirf mere personal n8n dashboard par hi chal raha hai.,1/26/2026,12:08 AM,"12:08 AM, 1/26/2026",incoming,False,,
-Unknown,Live kro,1/26/2026,12:12 AM,"12:12 AM, 1/26/2026",incoming,False,,
-+91 99796 38667,"Sir, sach kahoon to abhi mere paas koi Cloud Server (VPS) nahi hai. Ye pura system abhi mere local laptop par hi chal raha hai. Mujhe n8n ko live server par host karne ka technical method abhi nahi pata hai. Filhal aap JSON file se ise apne system par try kar sakte hain.",1/26/2026,12:19 AM,"12:19 AM, 1/26/2026",incoming,False,,
-Ankur Sir Promope,Linux server de du apko?,1/26/2026,12:15 PM,"12:15 PM, 1/26/2026",incoming,True,Unknown,"Sir, sach kahoon to abhi mere paas koi Cloud Server (VPS) nahi hai. Ye pura system abhi mere local laptop par hi chal raha hai.
-Mujhe n8n ko live server par host karne ka technical method abhi nahi pata hai. 
+group_name,sender,message,date,timestamp,full_datetime,type,is_reply,quoted_sender,quoted_text
+Unofficial cse section B,+91 98187 42460,Happy Birthday @+91 70335 86679,,,,incoming,False,,
+Unofficial cse section B,+91 85952 54276,The only person who gets the joke in the group,,4:41 PM,,incoming,True,Siddharth Upadh. 2nd,The only person who gets the joke in the group
+Unofficial cse section B,+91 85952 54276,For example if someone needs a 1TB SSD Samsung let me know,,2:23 PM,,incoming,True,Siddharth Upadh. 2nd,For example if someone needs a 1TB SSD Samsung let me know
+Unofficial cse section B,Unknown,Kya hi bolun mein ab,,10:20 AM,,incoming,True,Harsh Bhaiya Passout,Kya hi bolun mein ab
+Unofficial cse section B,Harsh Bhaiya Passout,I am assuming that's Happy,,9:45 AM,,incoming,True,Mehak Agarwal,I am assuming that's Happy
+Unofficial cse section B,+91 85952 54276,Dono hi apne college mein 2018 mein aaye the,,10:13 AM,,incoming,True,Harsh Bhaiya Passout,Dono hi apne college mein 2018 mein aaye the
+Unofficial cse section B,+91 85870 40727,GROK ?,,11:10 AM,,incoming,True,Unknown,GROK ?
+Unofficial cse section B,+91 85952 54276,Agent p click kro,,11:10 AM,,incoming,True,Mridul Chaudhary,Agent p click kro
+Unofficial cse section B,+91 98997 45351,"Alphabyte 3.0 is LIVE on Unstop! Registrations are open till 1st Feb (Only 1 day left!) Round 1 is FREE to register, so don’t overthink—just jump in! Round 1 (Online): Submit a PPT + video Submission deadline: 7th Feb Problem statements are available on Unstop Round 2 (Offline): 24-hour Hackathon at PCCOE Campus Dates: 16th & 17th Feb Prize Pool: ₹40,000+ Plus an exceptional 24-hour hackathon experience From Round 1, only 10 teams will be shortlisted for the offline finale—so make your submission count! Register now on Unstop: https://unstop.com/p/alphabyte-30-pimpri-chinchwad-college-of-engineering-pccoe-pune-1610063",2/1/2026,8:47 AM,"8:47 AM, 2/1/2026",incoming,False,,
+Unofficial cse section B,+91 99711 85480,"for moltbot, when its initiated it starts with a soul.md file, where u can actually edit his ""personality"" ""identity"" ""core priniciples"" , they have a preset but u can edit it as well",2/1/2026,10:30 AM,"10:30 AM, 2/1/2026",incoming,True,Unknown,how each one of them has their personality ? aren't LLMs supposed to have formal/professional personalities if their user has not specified them to have a certain personality ?
+Unofficial cse section B,+91 70335 86679,someone sent me this idk how correct it is,2/1/2026,10:36 AM,"10:36 AM, 2/1/2026",incoming,False,,
+Unofficial cse section B,Unknown,imma try it soon,2/1/2026,10:40 AM,"10:40 AM, 2/1/2026",incoming,False,,
+Unofficial cse section B,+91 99588 26633,"ah I see , thanks bud",2/1/2026,10:40 AM,"10:40 AM, 2/1/2026",incoming,True,Unknown,"for moltbot, when its initiated it starts with a soul.md file, where u can actually edit his ""personality"" ""identity"" ""core priniciples"" , they have a preset but u can edit it as well"
+Unofficial cse section B,+91 88260 29573,Hot topic,2/1/2026,10:50 AM,"10:50 AM, 2/1/2026",incoming,True,Unknown,someone sent me this idk how correct it is
+Unofficial cse section B,Unknown,Moithub.com,2/2/2026,10:11 AM,"10:11 AM, 2/2/2026",incoming,False,,
+Unofficial cse section B,+91 99711 85480,it is a interesting topic thou....what would be pleasurable to an ai,2/2/2026,10:19 AM,"10:19 AM, 2/2/2026",incoming,True,Mridul Chaudhary,Moithub.com
+Unofficial cse section B,Unknown,Dekho,2/2/2026,10:24 AM,"10:24 AM, 2/2/2026",incoming,False,,
+Unofficial cse section B,Unknown,Video ke neeche comments,2/2/2026,10:24 AM,"10:24 AM, 2/2/2026",incoming,False,,
+Unofficial cse section B,+91 97119 95621,agentic oyo hotels incoming,2/2/2026,10:24 AM,"10:24 AM, 2/2/2026",incoming,True,Mridul Chaudhary,Moithub.com
+Unofficial cse section B,+91 85870 40727,Avengers: age of Ultron,2/2/2026,10:28 AM,"10:28 AM, 2/2/2026",incoming,True,Mridul Chaudhary,Moithub.com
+Unofficial cse section B,Unknown,GROK ?,2/2/2026,10:46 AM,"10:46 AM, 2/2/2026",incoming,False,,
+Unofficial cse section B,+91 85952 54276,is baar vision kon hai ??,2/2/2026,10:46 AM,"10:46 AM, 2/2/2026",incoming,True,Unknown,Avengers: age of Ultron
+Unofficial cse section B,+91 88260 29573,Agentic bhandara jaankari soon,2/2/2026,11:01 AM,"11:01 AM, 2/2/2026",incoming,True,Unknown,agentic oyo hotels incoming
+Unofficial cse section B,+91 88260 29573,Ye bhi chalu ho gya ai ka,2/2/2026,11:01 AM,"11:01 AM, 2/2/2026",incoming,True,Mridul Chaudhary,Moithub.com
+Unofficial cse section B,+91 99588 26633,peak era we r living in,2/2/2026,11:05 AM,"11:05 AM, 2/2/2026",incoming,True,Mridul Chaudhary,Moithub.com
+Unofficial cse section B,+91 85952 54276,What is this ragebait,2/2/2026,11:09 AM,"11:09 AM, 2/2/2026",incoming,True,Mridul Chaudhary,Moithub.com
+Unofficial cse section B,Mridul Chaudhary,Agent p click kro,2/2/2026,11:10 AM,"11:10 AM, 2/2/2026",incoming,True,Unknown,What is this ragebait
+Unofficial cse section B,+91 85952 54276,Yha bhi pahuch gye,2/2/2026,11:11 AM,"11:11 AM, 2/2/2026",incoming,True,Mridul Chaudhary,Moithub.com
+Unofficial cse section B,+91 85952 54276,https://www.jmail.world/,2/3/2026,6:24 AM,"6:24 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,Harsh Bhaiya Passout,Craazzy,2/3/2026,7:53 AM,"7:53 AM, 2/3/2026",incoming,True,Unknown,https://www.jmail.world/
+Unofficial cse section B,+91 836 831 0640,https://chat.whatsapp.com/DbFJPi5vlmmBAwIvbGvnBi?mode=gi_t,2/3/2026,9:01 AM,"9:01 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,Unknown,Kon aa raha hai vaise iss baar ?,2/3/2026,9:04 AM,"9:04 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,+91 95602 65126,Nvm.. jus am giving a try,2/3/2026,9:04 AM,"9:04 AM, 2/3/2026",incoming,True,Harsh Bhaiya Passout,Ajib chutiyapa hai
+Unofficial cse section B,Harsh Bhaiya Passout,Ajib chutiyapa hai,2/3/2026,9:04 AM,"9:04 AM, 2/3/2026",incoming,True,Unknown,https://chat.whatsapp.com/LXnbC86mnuhCbo11nUO7s6?mode=gi_t
+Unofficial cse section B,Unknown,10 baar ek hi message,2/3/2026,9:04 AM,"9:04 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,Harsh Bhaiya Passout,Get into corporate life will give you a try,2/3/2026,9:05 AM,"9:05 AM, 2/3/2026",incoming,True,Unknown,Nvm.. jus am giving a try
+Unofficial cse section B,+91 98219 13595,5 ko mahinder buttar 6 ko Ankit tiwari,2/3/2026,9:06 AM,"9:06 AM, 2/3/2026",incoming,True,Harsh Bhaiya Passout,Kon aa raha hai vaise iss baar ?
+Unofficial cse section B,+91 98103 72956,6 ka pkka hogya ?,2/3/2026,9:56 AM,"9:56 AM, 2/3/2026",incoming,True,Unknown,"5 ko mahinder buttar
+6 ko Ankit tiwari"
+Unofficial cse section B,+91 98219 13595,Hn,2/3/2026,9:57 AM,"9:57 AM, 2/3/2026",incoming,True,Unknown,6 ka pkka hogya ?
+Unofficial cse section B,+91 98103 72956,Hn Ohk,2/3/2026,9:57 AM,"9:57 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,Unknown,Btw ye jo passes passes kr rhe hai log uski koi value hai kay ?,2/3/2026,9:57 AM,"9:57 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,Unknown,Kya*,2/3/2026,9:57 AM,"9:57 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,Harsh Bhaiya Passout,Dono hi apne college mein 2018 mein aaye the,2/3/2026,10:01 AM,"10:01 AM, 2/3/2026",incoming,True,Unknown,"5 ko mahinder buttar
+6 ko Ankit tiwari"
+Unofficial cse section B,Unknown,Ye toh downgrade hua,2/3/2026,10:02 AM,"10:02 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,+91 98103 72956,Acha damn,2/3/2026,10:02 AM,"10:02 AM, 2/3/2026",incoming,True,Harsh Bhaiya Passout,Dono hi apne college mein 2018 mein aaye the
+Unofficial cse section B,+91 96504 67164,"Firi: skin & haircare in mins App - App Store https://share.google/dbUK9aDHL4oNPvnKb heavy discount hai, ragad do ggn walo DLF Phase 4, Gurugram DLF Phase 5, Gurugram DLF Camellias, Gurugram DLF Aralias, Gurugram Central Park, Gurugram G-Town, Gurugram",2/3/2026,10:27 AM,"10:27 AM, 2/3/2026",incoming,False,,
+Unofficial cse section B,Unknown,Attending AI impact summit New Delhi,2/3/2026,4:53 PM,"4:53 PM, 2/3/2026",incoming,False,,
+Unofficial cse section B,+91 870 014 1041,"My Google play developer account closed due to inactivity Is there way to reopen it , I had a published app on it",2/4/2026,5:26 AM,"5:26 AM, 2/4/2026",incoming,False,,
+Unofficial cse section B,+91 836 824 2921,No,2/4/2026,5:29 AM,"5:29 AM, 2/4/2026",incoming,True,Mayank Jain,"My Google play developer account closed due to inactivity 
+Is there way to reopen it , I had a published app on it"
+Unofficial cse section B,+91 870 014 1041,New account se app republish ho jayegi ?,2/4/2026,5:32 AM,"5:32 AM, 2/4/2026",incoming,False,,
+Unofficial cse section B,+91 836 824 2921,Hn,2/4/2026,5:33 AM,"5:33 AM, 2/4/2026",incoming,True,Mayank Jain,New account se app republish ho jayegi ?
+Unofficial cse section B,+91 85870 40727,Your app is based on what tech stack? Dart or android native,2/4/2026,5:39 AM,"5:39 AM, 2/4/2026",incoming,True,Mayank Jain,"My Google play developer account closed due to inactivity 
+Is there way to reopen it , I had a published app on it"
+Unofficial cse section B,Unknown,Rentahuman.ai,2/5/2026,5:02 AM,"5:02 AM, 2/5/2026",incoming,False,,
+Unofficial cse section B,+91 88260 29573,Interesting,2/5/2026,5:15 AM,"5:15 AM, 2/5/2026",incoming,True,Mridul Chaudhary,Rentahuman.ai
+Unofficial cse section B,+91 88820 43374,People are trying to make Ai the next brain rot,2/5/2026,5:16 AM,"5:16 AM, 2/5/2026",incoming,False,,
+Unofficial cse section B,+91 88260 29573,https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys,2/5/2026,7:32 AM,"7:32 AM, 2/5/2026",incoming,False,,
+Unofficial cse section B,+91 88260 29573,Explains why rls in database is important,2/5/2026,7:33 AM,"7:33 AM, 2/5/2026",incoming,True,Vinayak Shukla,https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys
+Unofficial cse section B,+91 93109 32823,has someone got the merch for gdgc? please dm,2/5/2026,7:49 AM,"7:49 AM, 2/5/2026",incoming,False,,
+Unofficial cse section B,+91 98919 01895,Structured Epstein files,2/5/2026,8:11 AM,"8:11 AM, 2/5/2026",incoming,False,,
+Unofficial cse section B,+91 98919 01895,https://www.jmail.world,2/5/2026,8:11 AM,"8:11 AM, 2/5/2026",incoming,False,,
+Unofficial cse section B,+91 70335 86679,kitna bhejoge bhai,2/5/2026,9:57 AM,"9:57 AM, 2/5/2026",incoming,True,Syed Md Furquan,https://www.jmail.world
+Unofficial cse section B,+91 98997 45351,"FOSS Hack 2026 – Registrations Now Live! FOSS Hack 2026 is the 6th edition of FOSS Hack, a hybrid hackathon focused on promoting Free & Open Source Software (FOSS). It brings together students and professionals to build, extend, and contribute to real open-source projects. Registration Deadline: 20th February 2026 Why Participate? Win cash prizes worth up to ₹5,00,000 Build your reputation as a hacker Get recognized by recruiters Receive grants for your FOSS project FOSS Hack Jabalpur 2026 (In-Person) Hosted by FOSS Club GGITS March 1 – March 31, 2026 (Exact dates TBA) Venue: GGITS, Jabalpur What is FOSS Hack? It’s more than a hackathon — it’s a chance to work on real-world open-source software, learn proper collabor…",2/5/2026,5:16 PM,"5:16 PM, 2/5/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,https://www.instagram.com/reel/DUas6bxkQcw/?igsh=MXdheWV3ajhtenBuZw==,2/7/2026,6:03 AM,"6:03 AM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 95826 90242,"CodeZen 2 registrations are live! CodeGeeks x BitYug We are BitYug, community partners in collaboration with CodeGeeks, the coding society of GTB4CEC, for CodeZen, a national level hackathon that brings together innovators and builders to create something truly impactful. This year, the Stranger Things theme brings a spooky, creative atmosphere that’s set to push participants beyond the ordinary, coming February 2026. Register here: https://www.namespace.world/events/AFYYA7?utm_source=09c3b445-fa03-4793-8980-30bcde79a0b9 Follow CodeZen Instagram: https://www.instagram.com/codezen_codegeeks?igsh=MTd5dGRiMXl2cmY5Zg== Follow BitYug Instagram: https://www.instagram.com/bityug_adgips?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== Bring your crew, share it ahead, and get everyone registered. ~ BitYug",2/7/2026,1:47 PM,"1:47 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 870 014 1041,"Hey everyone I’m hiring an E-commerce Marketplace Executive and sharing it here in case anyone knows someone suitable. Role involves: Creating & optimizing marketplace listings Writing SEO-friendly titles, bullets & descriptions Designing creatives using Canva (main images, size guides, infographics) Supporting ads & deals Using AI tools to work faster and smarter Requirements: 1.5–4 years hands-on marketplace experience Amazon / Flipkart experience preferred Canva experience is important Ready to do a small practical assignment Salary: ₹20k–₹30k per month + incentives Location: Karol Bagh, Delhi (on-site) Interested one can apply at: https://www.linkedin.com/jobs/view/4369107382 Please share only with serious candidates",2/7/2026,1:53 PM,"1:53 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 95992 58000,Happy birthday @~Mehak Agarwal didi,2/7/2026,7:52 PM,"7:52 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 85870 40727,Happy Birthday President @~Mehak Agarwal,2/7/2026,7:55 PM,"7:55 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 97181 79925,Happy Birthday @~Mehak Agarwal didi,2/7/2026,7:59 PM,"7:59 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 98103 72956,Happy birthday @~Mehak Agarwal didi,2/7/2026,8:03 PM,"8:03 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,Unknown,Happy birthday di,2/7/2026,8:17 PM,"8:17 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 79869 07436,Happy Birthday @~Mehak Agarwal didi,2/7/2026,8:21 PM,"8:21 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 98912 44123,Happy birthday @~Mehak Agarwal didi,2/7/2026,8:31 PM,"8:31 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 96543 11721,Happy birthday @~Mehak Agarwal,2/7/2026,8:57 PM,"8:57 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 92791 30227,Happy birthday @~Mehak Agarwaldi,2/7/2026,9:51 PM,"9:51 PM, 2/7/2026",incoming,False,,
+Unofficial cse section B,+91 88260 29573,Happy birthday @~Mehak Agarwal,2/8/2026,2:17 AM,"2:17 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 7703 931 366,Happy birthday @~Mehak Agarwal didi,2/8/2026,2:28 AM,"2:28 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,Thank you everyone,2/8/2026,2:37 AM,"2:37 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Unknown,@~Mehak Agarwal,2/8/2026,2:54 AM,"2:54 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 81276 17401,Happiest Birthday to our President,2/8/2026,2:54 AM,"2:54 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98187 42460,Happy Birthday @~Mehak Agarwal didi,2/8/2026,2:55 AM,"2:55 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,Thank you,2/8/2026,3:15 AM,"3:15 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 93109 32823,Happy Birthday didi,2/8/2026,3:49 AM,"3:49 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98115 18095,Happy birthday @~Mehak Agarwal di,2/8/2026,3:57 AM,"3:57 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,Thankyou,2/8/2026,4:01 AM,"4:01 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 95602 65126,Happy birthday @~Mehak Agarwal,2/8/2026,4:04 AM,"4:04 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 93111 46544,Happy birthday @~Mehak Agarwal di,2/8/2026,4:14 AM,"4:14 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 7289 039 479,Happy birthday @⁨~Mehak Agarwal⁩,2/8/2026,4:44 AM,"4:44 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 88821 82578,@~Mehak Agarwal happy birthday diiiii,2/8/2026,4:47 AM,"4:47 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 93544 31461,Happy birthday @⁨~Mehak Agarwal didi,2/8/2026,4:54 AM,"4:54 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 92052 29659,"Wishing you a very Happy Birthday, @~Mehak Agarwal Your dedication, positivity, and constant support to the GDGC community truly make a difference . May this year bring you continued growth, success, and many meaningful achievements ahead Have a wonderful day and an even better year ahead",2/8/2026,4:59 AM,"4:59 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Unknown,Happy birthday @~Mehak Agarwal,2/8/2026,4:59 AM,"4:59 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 93867 58186,Happy birthday @~Mehak Agarwal,2/8/2026,5:01 AM,"5:01 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 70113 42370,Happy birthday @~Mehak Agarwal,2/8/2026,5:03 AM,"5:03 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 84482 10247,Happy Birthday @~Mehak Agarwal dii,2/8/2026,5:12 AM,"5:12 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 85274 70402,Happy birthday @~Mehak Agarwal,2/8/2026,5:26 AM,"5:26 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 94161 79563,Happy Birthday @~Mehak Agarwal,2/8/2026,5:27 AM,"5:27 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,Thankyou everyone,2/8/2026,5:53 AM,"5:53 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Unknown,Happ birthday @~Mehak Agarwal,2/8/2026,5:55 AM,"5:55 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 88821 23391,Happy Birthday @~Mehak Agarwal,2/8/2026,5:59 AM,"5:59 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 80104 58976,Happy Birthday @~Mehak Agarwal,2/8/2026,6:12 AM,"6:12 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 81303 66790,Happy Birthday @~Mehak Agarwal,2/8/2026,6:24 AM,"6:24 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 836 815 8789,Happy Birthday @~Mehak Agarwal dii,2/8/2026,6:36 AM,"6:36 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,I am assuming that's Happy,2/8/2026,6:42 AM,"6:42 AM, 2/8/2026",incoming,True,Mridul Chaudhary,Happ birthday @~Mehak Agarwal
+Unofficial cse section B,+91 98997 45351,Thankyou,2/8/2026,6:42 AM,"6:42 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 85349 31210,"If anyone interested, plz ping.",2/8/2026,6:45 AM,"6:45 AM, 2/8/2026",incoming,True,Deepak,QA Engineer - Mobile.pdf • 3 pages
+Unofficial cse section B,Mridul Chaudhary,Aree,2/8/2026,6:52 AM,"6:52 AM, 2/8/2026",incoming,True,Mehak Agarwal,I am assuming that's Happy
+Unofficial cse section B,Unknown,Dm krta hu,2/8/2026,6:53 AM,"6:53 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,free hai ?
+Unofficial cse section B,Unknown,free hai ?,2/8/2026,6:53 AM,"6:53 AM, 2/8/2026",incoming,True,Mridul Chaudhary,Aree
+Unofficial cse section B,+91 98997 45351,"Wishing you a very Happy Birthday, @+91 98216 60555 Hope this new year of your life brings happiness, confidence, exciting opportunities, and beautiful moments to cherish . Keep smiling and moving toward everything you aspire to achieve Grateful to have you as part of the GDGC Management team Have an amazing day and a wonderful year ahead",2/8/2026,7:38 AM,"7:38 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 92052 29659,Happy birthday @+91 98216 60555,2/8/2026,7:39 AM,"7:39 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98187 42460,Happy Birthday @+91 98216 60555,2/8/2026,7:39 AM,"7:39 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 97181 79925,Happy Birthday @+91 98216 60555,2/8/2026,7:39 AM,"7:39 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Unknown,Happiest birthday @~Mehak Agarwal,2/8/2026,7:41 AM,"7:41 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 7703 931 366,Happy Birthday @+91 98216 60555,2/8/2026,7:41 AM,"7:41 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 85870 40727,Happy birthday @+91 98216 60555,2/8/2026,7:49 AM,"7:49 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98216 60555,Thank u everyone,2/8/2026,7:49 AM,"7:49 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98216 60555,Thank u dii,2/8/2026,7:49 AM,"7:49 AM, 2/8/2026",incoming,True,Mehak Agarwal,"Wishing you a very Happy Birthday, @+91 98216 60555 
 
-Filhal aap JSON file se ise apne system par try kar sakte hain."
-Unknown,@+91 870 826 9340 thoda help kr dena inka,1/26/2026,12:16 PM,"12:16 PM, 1/26/2026",incoming,False,,
-Unknown,Method dekhiye kse live krte h,1/26/2026,12:16 PM,"12:16 PM, 1/26/2026",incoming,False,,
-+91 870 826 9340,got it!,1/26/2026,12:19 PM,"12:19 PM, 1/26/2026",incoming,True,Ankur Sir Promope,@+91 870 826 9340 thoda help kr dena inka
-Unknown,@Palak Bansal update?,1/26/2026,12:23 PM,"12:23 PM, 1/26/2026",incoming,False,,
-You,"Sir, I'm currently writing the entire code using langchain and langgraph, and some portion is left. Also, the Twilio API has a daily message limit, I'm working on it and will inform you once the entire part is completed",1/26/2026,12:31 PM,"12:31 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,@Palak Bansal update?
-You,Demo,1/26/2026,12:31 PM,"12:31 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,@Palak Bansal update?
-Unknown,Approx time we can expect from uh?,1/26/2026,12:32 PM,"12:32 PM, 1/26/2026",incoming,False,,
-You,For whatsapp messaging,1/26/2026,12:33 PM,"12:33 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,You need twillio ?
-Unknown,You need twillio ?,1/26/2026,12:33 PM,"12:33 PM, 1/26/2026",incoming,False,,
-Unknown,Tg use kr skte ho baki chizo k liye whatapp has the limit issue,1/26/2026,12:34 PM,"12:34 PM, 1/26/2026",incoming,True,You,For whatsapp messaging
-You,"Okay sir, will keep this in mind",1/26/2026,12:35 PM,"12:35 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,Tg use kr skte ho baki chizo k liye whatapp has the limit issue
-You,"Tomorrow evening, it'll be done",1/26/2026,12:36 PM,"12:36 PM, 1/26/2026",outgoing,True,Ankur Sir Promope,Approx time we can expect from uh?
-Unknown,Oky if you need any help you can text here,1/26/2026,12:36 PM,"12:36 PM, 1/26/2026",incoming,False,,
-You,"Sure sir, thanks!",1/26/2026,12:37 PM,"12:37 PM, 1/26/2026",outgoing,False,,
-+91 99796 38667,Main abhi project ke final deployment aur testing par kaam kar raha hoon. Jo chote-mote bugs the unhe fix kar raha hoon aur Linux server setup bhi figure out kar raha hoon taaki bot 24/7 smooth chale. Aaj shaam tak main poora project complete karke aapko handover kar dunga.,1/26/2026,1:50 PM,"1:50 PM, 1/26/2026",incoming,False,,
-+91 99796 38667,"Mera AI Second Brain Bot poori tarah complete aur tested hai. Maine ise alag-alag users ke sath test kiya hai aur reminders perfectly kaam kar rahe hain. Bot Link: [ https://t.me/ranjit_memorae_bot ] Important Note: n8n par executions limited hone ki wajah se, main ise aaj 3 baje se 4 baje tak hi Active rakhunga. Please aap isi time ke badh cheak karna chaho to pahle muje msg kr dena taki me Workflow Publish kr du.",1/27/2026,3:08 PM,"3:08 PM, 1/27/2026",incoming,False,,
-Unknown,Working,1/27/2026,3:13 PM,"3:13 PM, 1/27/2026",incoming,False,,
-Unknown,Oky,1/27/2026,3:13 PM,"3:13 PM, 1/27/2026",incoming,False,,
-+91 99796 38667,Thank you sir...,1/27/2026,3:13 PM,"3:13 PM, 1/27/2026",incoming,False,,
-Unknown,Good work,1/27/2026,3:16 PM,"3:16 PM, 1/27/2026",incoming,False,,
-Unknown,Now we will start this in second phase,1/27/2026,3:17 PM,"3:17 PM, 1/27/2026",incoming,False,,
-Unknown,Sent you in dm do that task,1/27/2026,3:18 PM,"3:18 PM, 1/27/2026",incoming,False,,
-+91 99796 38667,Ok sir I am Ready,1/27/2026,3:18 PM,"3:18 PM, 1/27/2026",incoming,False,,
-Unknown,@Palak Bansal ?,1/27/2026,6:16 PM,"6:16 PM, 1/27/2026",incoming,False,,
-You,"Sir these are the demos, currently working on the deployment, I've used gemini flash 2.5 for the images",1/27/2026,6:19 PM,"6:19 PM, 1/27/2026",outgoing,False,,
-You,"The audio consists ""add bananas to the shopping list""",1/27/2026,6:19 PM,"6:19 PM, 1/27/2026",outgoing,False,,
-Unknown,Good work,1/27/2026,7:12 PM,"7:12 PM, 1/27/2026",incoming,False,,
-You,Thankyou sir!,1/27/2026,8:00 PM,"8:00 PM, 1/27/2026",outgoing,False,,
-Unknown,Share bot url,1/27/2026,10:06 PM,"10:06 PM, 1/27/2026",incoming,True,You,"The audio consists ""add bananas to the shopping list"""
-You,https://t.me/palaaaaa_bot,1/27/2026,11:08 PM,"11:08 PM, 1/27/2026",outgoing,True,Ankur Sir Promope,Share bot url
-+91 99796 38667,"Hi , mujhe n8n AI Agent workflow mein ek help chahiye. Main RAG + OpenAI use karke ek 'Khata Book' bot bana raha hoon. Problem calculation logic mein aa rahi hai. Jab main bot se 'Total Expense' puchta hoon, to LLM un notes ko to sahi add kar leta hai jinmein 'Kharcha' word likha hota hai. Lekin wo context-based words jaise 'Udhaar' ya 'Diye' (Lent/Gave) ko ignore kar deta hai aur final total mein count nahi karta. Koi tips hain ki System Prompt ko kaise improve karoon taaki wo 'Udhaar/Diye' ko bhi expense maan kar total kare?",1/28/2026,6:01 PM,"6:01 PM, 1/28/2026",incoming,True,Ankur Sir Promope,"@+91 870 826 9340 will be ur senior 
-If you guys need any technical help you can ask him"
-+91 744 776 5224,"Hi everyone, please share a quick update on what you worked on today and your current progress. Thank you! — Anchal HR Manager",1/28/2026,6:18 PM,"6:18 PM, 1/28/2026",incoming,False,,
-+91 99796 38667,"Hi, aaj ka update: Phase 1 (Memory Bot): Ye successfully complete ho chuka hai. Phase 2 (Current Project): Almost done hai. Aaj maine Voice Transcription issue fix kar diya, ab bot Hinglish aur numbers perfectly samajh raha hai. Abhi bas Calculation Logic (Hisab) mein ek chhota sa issue hai jis par main work kar raha hoon. Ye fix hote hi mera ye Phase 2 bhi fully complete ho jayega.",1/28/2026,6:25 PM,"6:25 PM, 1/28/2026",incoming,True,Unknown,"Hi everyone, please share a quick update on what you worked on today and your current progress. Thank you!
+Hope this new year of your life brings happiness, confidence, exciting opportunities, and beautiful moments to cherish . Keep smiling and moving toward everything you aspire to achieve 
 
-— Anchal
-HR Manager"
-Ankur Sir Promope,U need to train more,1/28/2026,6:26 PM,"6:26 PM, 1/28/2026",incoming,True,Unknown,"Hi , mujhe n8n AI Agent workflow mein ek help chahiye. 
-Main RAG + OpenAI use karke ek 'Khata Book' bot bana raha hoon. Problem calculation logic mein aa rahi hai.
-Jab main bot se 'Total Expense' puchta hoon, to LLM un notes ko to sahi add kar leta hai jinmein 'Kharcha' word likha hota hai. Lekin wo context-based words jaise 'Udhaar' ya 'Diye' (Lent/Gave) ko ignore kar deta hai aur final total mein count nahi karta.
-Koi tips hain ki System Prompt ko kaise improve karoon taaki wo 'Udhaar/Diye' ko bhi expense maan kar total kare?"
-+91 99796 38667,Ji Sir,1/28/2026,6:26 PM,"6:26 PM, 1/28/2026",incoming,True,Ankur Sir Promope,U need to train more
-You,"Hi, I've worked on bot, updated the code and modified the changes, currently working on deploying it again on render",1/28/2026,6:28 PM,"6:28 PM, 1/28/2026",outgoing,True,Unknown,"Hi everyone, please share a quick update on what you worked on today and your current progress. Thank you!
+Grateful to have you as part of the GDGC Management team   
+Have an amazing day and a wonderful year ahead"
+Unofficial cse section B,Unknown,Thank u everyone,2/8/2026,7:49 AM,"7:49 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,thankyou!!,2/8/2026,7:50 AM,"7:50 AM, 2/8/2026",incoming,True,Ritika Budhirajaa,Happiest birthday @~Mehak Agarwal
+Unofficial cse section B,Unknown,Happiest birthday @+91 98216 60555,2/8/2026,7:53 AM,"7:53 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 81781 34152,Happy Birthday @~Mehak Agarwal,2/8/2026,8:02 AM,"8:02 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,Thankyou!,2/8/2026,8:15 AM,"8:15 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 93544 31461,Happy birthday @⁨~Ayushi Rathi⁩,2/8/2026,8:16 AM,"8:16 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98216 60555,Thank you,2/8/2026,8:34 AM,"8:34 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 93111 46544,Happy Birthday @+91 98216 60555,2/8/2026,8:34 AM,"8:34 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 836 831 0640,"Registrations Now Open — Developers Meetup 2026 TechEra × Tech4Hack proudly brings an exclusive offline developers meetup designed for builders, innovators, and ambitious tech enthusiasts. What to Expect Insightful AI & Web3 focused sessions High-value networking Updates on hackathons, internships, and community programs Participation Certificate for attendees Date: 7th March 2026 Time: 10:00 AM onwards Venue: Thoughtworks, Gurgaon *Limited offline seats available — secure your spot now: https://luma.com/esw4feoh?tk=f3g34Z Join the official WhatsApp group for event updates and announcements: https://chat.whatsapp.com/G2tMZURUl512ItbbCkjvk4?mode=gi_t Be part of the growing of this amazing Event",2/8/2026,8:40 AM,"8:40 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 95992 58000,Happy birthday @+91 98216 60555 didi,2/8/2026,9:57 AM,"9:57 AM, 2/8/2026",incoming,True,Mehak Agarwal,"Wishing you a very Happy Birthday, @+91 98216 60555 
 
-— Anchal
-HR Manager"
-+91 99796 38667,Kya meri current Calculation error ke related thodi call pe bat ho sakti hai kisi expert se ? Aur me n8n ke if node me bhi ek logic ko achche se samajna chahta hu is liye.,1/28/2026,6:31 PM,"6:31 PM, 1/28/2026",incoming,False,,
-Unknown,Aj ho jyga? Sab,1/28/2026,6:32 PM,"6:32 PM, 1/28/2026",incoming,True,You,"Hi, I've worked on bot, updated the code and modified the changes, currently working on deploying it again on render"
-Ankur Sir Promope,Oky,1/28/2026,6:43 PM,"6:43 PM, 1/28/2026",incoming,True,Unknown,"Kya meri current Calculation error ke related thodi call pe bat ho sakti hai kisi expert se ?
-Aur me n8n ke if node me bhi ek logic ko achche se samajna chahta hu is liye."
-+91 99796 38667,Thank you sir. kya jan sakta hu kitne baje ?,1/28/2026,6:45 PM,"6:45 PM, 1/28/2026",incoming,True,Ankur Sir Promope,Oky
-Unknown,Will tell wait,1/28/2026,6:46 PM,"6:46 PM, 1/28/2026",incoming,False,,
-Unknown,Ya fir idhr ss de do,1/28/2026,6:46 PM,"6:46 PM, 1/28/2026",incoming,False,,
-Unknown,Error ka,1/28/2026,6:46 PM,"6:46 PM, 1/28/2026",incoming,False,,
-+91 99796 38667,Ok Sir Me bat karna chahta hu taki Real logic samaj saku.,1/28/2026,6:48 PM,"6:48 PM, 1/28/2026",incoming,True,Ankur Sir Promope,Will tell wait
-+91 744 776 5224,"Good morning, team! What’s the plan for today?",1/29/2026,9:23 AM,"9:23 AM, 1/29/2026",incoming,False,,
-+91 99796 38667,"Good morning Today's Plan: Debugging: Currently investigating the root cause of the calculation error (context retrieval) that occurred yesterday. Fix & Test: My priority is to identify the bug, fix the logic, and run final tests today. Will keep you posted on the progress.",1/29/2026,9:39 AM,"9:39 AM, 1/29/2026",incoming,False,,
-+91 744 776 5224,Sure,1/29/2026,10:05 AM,"10:05 AM, 1/29/2026",incoming,False,,
-+91 744 776 5224,@Palak Bansal,1/29/2026,10:21 AM,"10:21 AM, 1/29/2026",incoming,True,Unknown,"Good morning, team! What’s the plan for today?"
-You,"Good morning, everyone I will be focusing on addressing the bot's edge cases to ensure its stability and the delivery of appropriate responses to users",1/29/2026,11:27 AM,"11:27 AM, 1/29/2026",outgoing,False,,
-+91 744 776 5224,"Team, share today’s work update.",1/29/2026,6:35 PM,"6:35 PM, 1/29/2026",incoming,False,,
-+91 99796 38667,"Update : Audio Transcription wali problem ab puri tarah fix ho gayi hai aur Agent ko bhi maine kaafi train kar diya hai. Everything is working fine regarding that. Ab bas ye Calculation Logic wala aakhiri error bacha hai. Maine isko fix karne ke liye apni taraf se sabhi possible methods try kiye, lekin exact solution crack nahi ho paa raha hai. Mujhe lagta hai main koi logic miss kar raha hoon, isliye mujhe ispar thodi Expert Guidance ki zarurat hai. Agar me akela error and trial karta rahuga to zyada time lag jayega. Jab bhi aapke paas time ho ya aap available ho (Aaj ya kal) kya hum ek Short Call par connect kar sakte hain? Taaki main ise samajh kar project finally close kar sakun. Please let me know.",1/29/2026,7:17 PM,"7:17 PM, 1/29/2026",incoming,False,,
-Unknown,@+91 870 826 9340,1/29/2026,7:19 PM,"7:19 PM, 1/29/2026",incoming,False,,
-Unknown,Help kr do inka,1/29/2026,7:20 PM,"7:20 PM, 1/29/2026",incoming,False,,
-Unknown,Thoda,1/29/2026,7:20 PM,"7:20 PM, 1/29/2026",incoming,False,,
-Unknown,M kal tk busy hu thoda,1/29/2026,7:20 PM,"7:20 PM, 1/29/2026",incoming,False,,
-+91 870 826 9340,Okay,1/29/2026,7:22 PM,"7:22 PM, 1/29/2026",incoming,True,Ankur Sir Promope,@+91 870 826 9340
-You,"Today, I worked on the reminders and payments system. I've refined the logic and managed them according to the previous context. Now, I need to add timing functionality so that it can provide responses with the time when shared and asked",1/29/2026,7:23 PM,"7:23 PM, 1/29/2026",outgoing,False,,
-+91 99796 38667,Thanks,1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,True,Unknown,Okay
-+91 870 826 9340,Okay,1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,False,,
-+91 870 826 9340,"@+91 99796 38667 Today 08:30 PM ke baad ya fir kal connect kar lete h,",1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,True,Unknown,"Update : Audio Transcription wali problem ab puri tarah fix ho gayi hai aur Agent ko bhi maine kaafi train kar diya hai. Everything is working fine regarding that. 
+Hope this new year of your life brings happiness, confidence, exciting opportunities, and beautiful moments to cherish . Keep smiling and moving toward everything you aspire to achieve 
 
-Ab bas ye Calculation Logic wala aakhiri error bacha hai. Maine isko fix karne ke liye apni taraf se sabhi possible methods try kiye, lekin exact solution crack nahi ho paa raha hai.
+Grateful to have you as part of the GDGC Management team   
+Have an amazing day and a wonderful year ahead"
+Unofficial cse section B,Unknown,Anyone around cp tonight for booze ?,2/8/2026,9:59 AM,"9:59 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Harsh Bhaiya Passout,4 saal se zyada age diff hua toh aise bhi autoreject ho jayega dont worry,2/8/2026,10:01 AM,"10:01 AM, 2/8/2026",incoming,True,Unknown,
+Unofficial cse section B,+91 98103 72956,Haan whi,2/8/2026,10:02 AM,"10:02 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 96504 67164,flight karwa de,2/8/2026,10:03 AM,"10:03 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Unknown,@+91 96504 67164 cp aaja bhai mein party dunga,2/8/2026,10:03 AM,"10:03 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Harsh Bhaiya Passout,Bhai mein party de raha hoon tu itna toh kar hi skta hai,2/8/2026,10:04 AM,"10:04 AM, 2/8/2026",incoming,True,Unknown,flight karwa de
+Unofficial cse section B,Unknown,Kya hi bolun mein ab,2/8/2026,10:06 AM,"10:06 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Unknown,@Akshar Grover @Mridul Chaudhary comments ?,2/8/2026,10:07 AM,"10:07 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 70335 86679,kyu 2nd yr me hone se kya apatti h aapko,2/8/2026,10:08 AM,"10:08 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,Kya hi bolun mein ab
+Unofficial cse section B,Unknown,are,2/8/2026,10:08 AM,"10:08 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,@Akshar Grover @Mridul Chaudhary comments ?
+Unofficial cse section B,Harsh Bhaiya Passout,Gen z is gendu generation for a reason,2/8/2026,10:10 AM,"10:10 AM, 2/8/2026",incoming,True,Unknown,kyu 2nd yr me hone se kya apatti h aapko
+Unofficial cse section B,Unknown,Just wanna know out of curiosity,2/8/2026,10:12 AM,"10:12 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98103 72956,Aap ho kaun ?,2/8/2026,10:12 AM,"10:12 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,Gen z is gendu generation for a reason
+Unofficial cse section B,Harsh Bhaiya Passout,Iss group ka papa hoon mein,2/8/2026,10:13 AM,"10:13 AM, 2/8/2026",incoming,True,Unknown,Aap ho kaun ?
+Unofficial cse section B,Unknown,Am I getting kicked,2/8/2026,10:13 AM,"10:13 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98103 72956,Man i always wanted to say this,2/8/2026,10:14 AM,"10:14 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,Man i always wanted to say this
+Unofficial cse section B,Unknown,Man i always wanted to say this,2/8/2026,10:14 AM,"10:14 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 99711 85480,passed out senior,2/8/2026,10:15 AM,"10:15 AM, 2/8/2026",incoming,True,Unknown,Aap ho kaun ?
+Unofficial cse section B,+91 98103 72956,I mean kitne saal hogye pass out hue ?,2/8/2026,10:15 AM,"10:15 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Akshar Grover,4 saal,2/8/2026,10:15 AM,"10:15 AM, 2/8/2026",incoming,True,Unknown,I mean kitne saal hogye pass out hue ?
+Unofficial cse section B,+91 99711 85480,"unsure bout that, pretty sure you were in school thou",2/8/2026,10:15 AM,"10:15 AM, 2/8/2026",incoming,True,Unknown,I mean kitne saal hogye pass out hue ?
+Unofficial cse section B,Unknown,ab calculate karo bas,2/8/2026,10:16 AM,"10:16 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 98103 72956,Ya that's true,2/8/2026,10:16 AM,"10:16 AM, 2/8/2026",incoming,True,Unknown,"unsure bout that, pretty sure you were in school thou"
+Unofficial cse section B,+91 98103 72956,Oh,2/8/2026,10:16 AM,"10:16 AM, 2/8/2026",incoming,True,Akshar Grover,4 saal
+Unofficial cse section B,Unknown,"Just a general reminder to @all This group exists from 2022 You have access to seniors from 2022, bakchodi karo not an issue but maintain etiquettes dont get personal can be a senior person you are trying to bully As a rule of thumb which we have already set if age gap is more than 4 years and you are trying to reach out to any senior the answer you will get is have a discussion to your immedeate senior The rule 2 is kept keeping in mind that industry gap will be way more and what applied in our time might be irrelevant by the time next juniors (4 years ) passout Over and out Charlie oscar",2/8/2026,10:25 AM,"10:25 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Unknown,It's not like that bhaiya . Becoz uh urself got frank first by asking question out of the box and if the person got frank with uh uh r urself pulling out etiquettes and all .. That person is ur junior but he doesn't knows about uhh .Who you are,2/8/2026,10:39 AM,"10:39 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,"Just a general reminder to @all 
 
-Mujhe lagta hai main koi logic miss kar raha hoon, isliye mujhe ispar thodi Expert Guidance ki zarurat hai. Agar me akela error and trial karta rahuga to zyada time lag jayega.
+This group exists from 2022
 
-Jab bhi aapke paas time ho ya aap available ho (Aaj ya kal) kya hum ek Short Call par connect kar sakte hain? Taaki main ise samajh kar project finally close kar sakun.
+You have access to seniors from 2022, bakchodi karo not an issue but maintain etiquettes dont get personal can be a senior person you are trying to bully 
+The rule 2 is kept keeping in mind that industry gap will be way more and what applied in our time might be irrelevant by the time next juniors (4 years ) passout 
 
-Please let me know."
-+91 99796 38667,Today,1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,True,Unknown,"@+91 99796 38667 
-Today 08:30 PM ke baad ya fir kal connect kar lete h,"
-Unknown,08:30 Final ?,1/29/2026,7:24 PM,"7:24 PM, 1/29/2026",incoming,False,,
-+91 870 826 9340,Happy to support,1/29/2026,7:27 PM,"7:27 PM, 1/29/2026",incoming,True,Unknown,Thanks
-+91 870 826 9340,@+91 99796 38667 join Call With Amit https://meet.google.com/dqw-zdtk-rqw,1/29/2026,8:33 PM,"8:33 PM, 1/29/2026",incoming,False,,
-+91 99796 38667,ok,1/29/2026,8:36 PM,"8:36 PM, 1/29/2026",incoming,False,,
-+91 870 826 9340,@Ankur Sir Promope Bot done ho gya,1/29/2026,10:46 PM,"10:46 PM, 1/29/2026",incoming,False,,
-+91 99796 38667,"Hello Team, I am happy to update ki mera AI Accountant/Second Brain project ab finally 100% successfully work kar raha hai! A huge Thank You to Amit Sir for the guidance on the call. Unhone jo logic samjhaya aur jo System Prompt refine karke diya, usne magic ki tarah kaam kiya. Ab bot Hinglish inputs, Currency Conversion aur Udhaar/Expense Calculation sab kuch perfect kar raha hai. No more errors. The workflow is smooth now. Thanks everyone for the support!",1/29/2026,10:53 PM,"10:53 PM, 1/29/2026",incoming,False,,
-+91 744 776 5224,Good morning team Drop your plan for today and the tasks you'll be working on.,1/30/2026,9:21 AM,"9:21 AM, 1/30/2026",incoming,False,,
-You,"Hi Team, Today's plan: I will work on the Hinglish and language parts of the bot so that it can understand input in Hinglish too.",1/30/2026,10:24 AM,"10:24 AM, 1/30/2026",outgoing,False,,
-+91 99796 38667,Hello Team Update ye hai ki mera AI Accountant project ab puri tarah se complete ho gaya hai aur 100% sahi chal raha hai. Aaj maine isme ek major fix kiya hai. Pehle bot ko time samajhne mein dikkat ho rahi thi. Isko fix karne ke liye maine Pinecone node se pehle ek Edit Fields node add kiya hai. Ab har message ke sath Current Date aur Time automatically content mein hi save ho raha hai. Is wajah se ab bot Last 1 hour ya Aaj ka hisab ekdum sahi bata raha hai. Ab mera ye project complete hai. Please batayein ki agla step ya next task kya hai.,1/30/2026,5:53 PM,"5:53 PM, 1/30/2026",incoming,False,,
-+91 744 776 5224,Good evening team. Share a brief update on today’s work.,1/30/2026,6:13 PM,"6:13 PM, 1/30/2026",incoming,False,,
-Ankur Sir Promope,Bot url share kro,1/30/2026,7:01 PM,"7:01 PM, 1/30/2026",incoming,True,Unknown,"Hello Team
+Over and out 
+Charlie oscar"
+Unofficial cse section B,Unknown,Soo talking about 4 year passout he may be unaware that I am his senior tooo . So if you want to create a line of Seniority then must fill the gap between seniors and juniors...,2/8/2026,10:40 AM,"10:40 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,"Just a general reminder to @all 
 
-Update ye hai ki mera AI Accountant project ab puri tarah se complete ho gaya hai aur 100% sahi chal raha hai.
+This group exists from 2022
 
-Aaj maine isme ek major fix kiya hai. Pehle bot ko time samajhne mein dikkat ho rahi thi. Isko fix karne ke liye maine Pinecone node se pehle ek Edit Fields node add kiya hai.
+You have access to seniors from 2022, bakchodi karo not an issue but maintain etiquettes dont get personal can be a senior person you are trying to bully 
+The rule 2 is kept keeping in mind that industry gap will be way more and what applied in our time might be irrelevant by the time next juniors (4 years ) passout 
 
-Ab har message ke sath Current Date aur Time automatically content mein hi save ho raha hai. Is wajah se ab bot Last 1 hour ya Aaj ka hisab ekdum sahi bata raha hai.
+Over and out 
+Charlie oscar"
+Unofficial cse section B,+91 836 862 3243,+1,2/8/2026,10:42 AM,"10:42 AM, 2/8/2026",incoming,True,Ritika Budhirajaa,Soo talking about 4 year passout he may be unaware that I am his senior tooo . So if you want to create a line of Seniority then must fill the gap between seniors and juniors...
+Unofficial cse section B,Unknown,Keeping in mind just one thing not too use any abusive language,2/8/2026,10:42 AM,"10:42 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,Unknown,@Harsh Bhaiya Passout I guess all other seniors will agree After all it's Banter group .. So every one is allowed to chill here and talk informally tooo ..,2/8/2026,10:42 AM,"10:42 AM, 2/8/2026",incoming,False,,
+Unofficial cse section B,+91 96253 82247,+1,2/8/2026,10:47 AM,"10:47 AM, 2/8/2026",incoming,True,Ritika Budhirajaa,"It's not like that bhaiya . Becoz uh urself got frank first by asking question out of the box and if the person got frank with uh uh r urself pulling out etiquettes and all .. 
+That person is ur junior but he doesn't knows about uhh .Who you are"
+Unofficial cse section B,+91 92052 29659,"We respect and appreciate the fact that you were one of the people who contributed to the formation of the society in our institution of higher learning. Nevertheless, your description of yourself as the “BAAP” of the society is unacceptable, unprofessional, and does not illustrate the fundamental character expected in the society. We, in our current core team, will not tolerate someone talking to our members in that way.",2/8/2026,10:55 AM,"10:55 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,"Just a general reminder to @all 
 
-Ab mera ye project complete hai. Please batayein ki agla step ya next task kya hai."
-+91 99796 38667,@ranjit_memorae_bot,1/30/2026,7:03 PM,"7:03 PM, 1/30/2026",incoming,False,,
-+91 99796 38667,https://t.me/ranjit_memorae_bot,1/30/2026,7:04 PM,"7:04 PM, 1/30/2026",incoming,False,,
-You,"Today, I worked on the hinglish side of the bot. Only the few changes are needed, then it will be working fine, kal tak complete ho jayega chatbot",1/30/2026,11:45 PM,"11:45 PM, 1/30/2026",outgoing,False,,
-Unknown,Aj khtm kro ye vala task,1/31/2026,9:12 AM,"9:12 AM, 1/31/2026",incoming,False,,
-+91 744 776 5224,Good morning team. Share your plan for today.,1/31/2026,9:33 AM,"9:33 AM, 1/31/2026",incoming,False,,
-+91 99796 38667,"My Plan for Today: Update on Yesterday's Issue: Post our 8:00 PM testing I analyzed the errors where the bot was failing to understand typos (like Hisab brao). I fixed this late last night. The bot's NLP model is now updated to correctly recognize short-context words and Hinglish typos. It is working perfectly now. Today's Goal: I am now focusing on the final 'Smart Reminder Logic'. Currently, there is a conflict where the bot captures the time but misses the calculation for future reminders. I will be fixing the Timezone Sync (IST) and connecting the calculation engine with the calendar today.",1/31/2026,9:56 AM,"9:56 AM, 1/31/2026",incoming,True,Unknown,Good morning team. Share your plan for today.
-+91 744 776 5224,Good evening team. Share a brief update on today’s work.,1/31/2026,6:58 PM,"6:58 PM, 1/31/2026",incoming,False,,
-+91 99796 38667,"Aaj ka update: Workflow almost ready hai! Bas abhi final testing chal rahi hai taaki alag-alag scenarios mein bhi bot perfect kaam kare AI Agent Ko Aur jyada trend kr rha hu. Raat tak system pura complete ho jayega. Aaj humne 2 naye features add kiye hain: Smart Delay System (Wait Node): Ab bot 5 min baad ya ruk ke jawab dene wali commands samajhta hai aur time par remind karta hai. Desi Language Support: Ab ye Hinglish (jaise aadha ghant, turant, brao) ko bhi perfectly samajh raha hai.",1/31/2026,7:27 PM,"7:27 PM, 1/31/2026",incoming,False,,
-You,"Good evening, everyone! The bot is almost ready. Today, I fixed the language and reminder issues in my bot. It's almost ready, using all free APIs and fixing almost every edge case. Currently, it's in the testing stage and will be completely deployed when all tests clear.",1/31/2026,8:23 PM,"8:23 PM, 1/31/2026",outgoing,False,,
-+91 99796 38667,Ji,2/1/2026,3:45 PM,"3:45 PM, 2/1/2026",incoming,True,Unknown,"Hello Sir
+This group exists from 2022
 
-Maine AI workflow ka pura kaam complete kar liya hai. Meri internal testing mein sab kuch sahi chal raha hai aur results accurate aa rahe hain. Maine screenshots attach kiye hain aap dekh lijiye.
+You have access to seniors from 2022, bakchodi karo not an issue but maintain etiquettes dont get personal can be a senior person you are trying to bully 
+The rule 2 is kept keeping in mind that industry gap will be way more and what applied in our time might be irrelevant by the time next juniors (4 years ) passout 
 
-Aap jab bhi free honge mujhe message kar dijiyega. Main workflow ko publish kar dunga taaki aap live check kar sakein."
-Unknown,Bhi rhta kya ism,2/1/2026,3:45 PM,"3:45 PM, 2/1/2026",incoming,False,,
-Unknown,Time stamp,2/1/2026,3:45 PM,"3:45 PM, 2/1/2026",incoming,False,,
-Unknown,Oky,2/1/2026,3:46 PM,"3:46 PM, 2/1/2026",incoming,False,,
-+91 99796 38667,Haa,2/1/2026,3:46 PM,"3:46 PM, 2/1/2026",incoming,True,Ankur Sir Promope,Bhi rhta kya ism
-Unknown,Will check,2/1/2026,3:47 PM,"3:47 PM, 2/1/2026",incoming,False,,
-+91 99796 38667,"Ok, Now Workflow is published.",2/1/2026,3:48 PM,"3:48 PM, 2/1/2026",incoming,False,,
-+91 744 776 5224,Good morning team. Share your plan for today.,2/2/2026,9:13 AM,"9:13 AM, 2/2/2026",incoming,False,,
-+91 99796 38667,Research : About Mass Level DM AI Automation Setup.,2/2/2026,9:36 AM,"9:36 AM, 2/2/2026",incoming,True,Unknown,Good morning team. Share your plan for today.
-Unknown,“Research about the thing I told you last night.”,2/2/2026,9:39 AM,"9:39 AM, 2/2/2026",incoming,False,,
-+91 99796 38667,Ok sir,2/2/2026,9:41 AM,"9:41 AM, 2/2/2026",incoming,True,Ankur Sir Promope,“Research about the thing I told you last night.”
-You,Okay sir,2/2/2026,9:46 AM,"9:46 AM, 2/2/2026",outgoing,True,Ankur Sir Promope,“Research about the thing I told you last night.”
-Unknown,Update,2/2/2026,1:54 PM,"1:54 PM, 2/2/2026",incoming,False,,
-Unknown,Hlo @Palak Bansal @+91 99796 38667,2/2/2026,1:54 PM,"1:54 PM, 2/2/2026",incoming,False,,
-Unknown,Welcome @+91 62668 85103,2/2/2026,1:54 PM,"1:54 PM, 2/2/2026",incoming,False,,
-+91 62668 85103,Thank you! Happy to be here,2/2/2026,3:32 PM,"3:32 PM, 2/2/2026",incoming,True,Ankur Sir Promope,Welcome @+91 62668 85103
-Unknown,We will connect at 5 PM today Be active at that time,2/2/2026,3:33 PM,"3:33 PM, 2/2/2026",incoming,False,,
-Unknown,All members,2/2/2026,3:33 PM,"3:33 PM, 2/2/2026",incoming,False,,
-+91 62668 85103,Noted. I’ll be active at 5 PM.,2/2/2026,3:35 PM,"3:35 PM, 2/2/2026",incoming,True,Ankur Sir Promope,"We will connect at 5 PM today 
-Be active at that time"
-+91 99796 38667,"Hello Sir, subah se main Mass DM Automation par research kar raha tha. Update ready hai Quick money or side hasal wali niche mein me Instagram per account Ban hone ka high risk hota Hai isliye work flow Ko Maine 3 step mein design Kiya Hai Pahla wala workflow n8n + Apify ka use karke data nikalega aur AI us data ko filter Karega ki user kis country ka hai aur kis category mein interest rakhta hai Aur dusra wala work flow use karke list mein se data utha kar gap rakhkar DM send Karega taki Instagram account ko koi problem Na Ho Main ismein conversational AI ko add karunga jab bhi user reply Karega hamara agent usse baat Karega unke sawalon ka jawab dega aur unhen global community group mein join karne ke liye link denga",2/2/2026,3:38 PM,"3:38 PM, 2/2/2026",incoming,True,Ankur Sir Promope,Update
-+91 99796 38667,Ok sir,2/2/2026,3:38 PM,"3:38 PM, 2/2/2026",incoming,True,Ankur Sir Promope,"We will connect at 5 PM today 
-Be active at that time"
-You,Okay sir,2/2/2026,3:42 PM,"3:42 PM, 2/2/2026",outgoing,True,Ankur Sir Promope,"We will connect at 5 PM today 
-Be active at that time"
-Ankur Sir Promope,Try things other then ig Like fb wtsp Telegram,2/2/2026,3:42 PM,"3:42 PM, 2/2/2026",incoming,True,Unknown,"Hello Sir, subah se main Mass DM Automation par research kar raha tha. Update ready hai
+Over and out 
+Charlie oscar"
+Unofficial cse section B,Unknown,"Again read the message again, banter par bakchodi karo not an issue what i pointed out was dont do personal attack ki baat kar raha tha Again respecting others opinion have removed the the tag If someone felt hurt i apologise",2/8/2026,11:05 AM,"11:05 AM, 2/8/2026",incoming,True,Ritika Budhirajaa,"It's not like that bhaiya . Becoz uh urself got frank first by asking question out of the box and if the person got frank with uh uh r urself pulling out etiquettes and all .. 
+That person is ur junior but he doesn't knows about uhh .Who you are"
+Unofficial cse section B,Unknown,Hnjiii no issues,2/8/2026,11:06 AM,"11:06 AM, 2/8/2026",incoming,True,Harsh Bhaiya Passout,"Again read the message again, banter par bakchodi karo not an issue what i pointed out was dont do personal attack ki baat kar raha tha 
 
-Quick money or side hasal wali niche mein me Instagram per account Ban hone ka high risk hota Hai isliye work flow Ko Maine 3 step mein design Kiya Hai 
+Again respecting others opinion have removed the the tag 
 
-Pahla wala workflow n8n + Apify ka use karke data nikalega aur AI us data ko filter Karega  ki user kis country ka hai aur kis category mein interest rakhta hai
-
-Aur dusra wala work flow use karke list mein se data utha kar  gap rakhkar DM send Karega taki Instagram account ko koi problem Na Ho 
-
-Main ismein conversational AI ko add karunga jab bhi user reply Karega hamara agent usse baat Karega unke sawalon ka jawab dega aur unhen global community group mein join karne ke liye link denga"
-Unknown,Research on these things,2/2/2026,3:43 PM,"3:43 PM, 2/2/2026",incoming,False,,
-Unknown,And be ready with your report,2/2/2026,3:43 PM,"3:43 PM, 2/2/2026",incoming,False,,
-+91 99796 38667,Ok,2/2/2026,3:44 PM,"3:44 PM, 2/2/2026",incoming,True,Ankur Sir Promope,"Try things other then ig 
-Like fb wtsp 
-Telegram"
-+91 744 776 5224,"Hi everyone, Join the meeting using the link below: https://meet.google.com/dqw-zdtk-rqw",2/2/2026,4:49 PM,"4:49 PM, 2/2/2026",incoming,False,,
-Unknown,Join now,2/2/2026,4:49 PM,"4:49 PM, 2/2/2026",incoming,False,,
-+91 744 776 5224,@+91 62668 85103 @+91 99796 38667,2/2/2026,4:50 PM,"4:50 PM, 2/2/2026",incoming,False,,
-You,Sir please share some money making telegram groups url,2/2/2026,5:16 PM,"5:16 PM, 2/2/2026",outgoing,False,,
-Unknown,Google p dalo keywords bht sare mileng,2/2/2026,5:17 PM,"5:17 PM, 2/2/2026",incoming,True,You,Sir please share some money making telegram groups url
-You,"Sir telegram se contact info nikalna toh mushkil hai, unki tg used id hi mil sakti hai",2/2/2026,5:23 PM,"5:23 PM, 2/2/2026",outgoing,False,,
-Unknown,I'd hi to chiy,2/2/2026,5:24 PM,"5:24 PM, 2/2/2026",incoming,True,You,"Sir telegram se contact info nikalna toh mushkil hai, unki tg used id hi mil sakti hai"
-Unknown,Usi ko msg kr skte h n,2/2/2026,5:24 PM,"5:24 PM, 2/2/2026",incoming,False,,
-Unknown,Ham,2/2/2026,5:24 PM,"5:24 PM, 2/2/2026",incoming,False,,
-You,Oh okay okay,2/2/2026,5:25 PM,"5:25 PM, 2/2/2026",outgoing,False,,
-You,sir groups like this https://web.telegram.org/a/#-1001303391607 right?,2/2/2026,5:39 PM,"5:39 PM, 2/2/2026",outgoing,False,,
-+91 744 776 5224,Good evening team. Share a brief update on today’s work.,2/2/2026,6:32 PM,"6:32 PM, 2/2/2026",incoming,False,,
-+91 99796 38667,1 ) Research : About Mass Level DM AI Automation Setup. 2 ) Meeting 3 ) Next Structure Planning About DM Automation,2/2/2026,6:48 PM,"6:48 PM, 2/2/2026",incoming,True,Unknown,Good evening team. Share a brief update on today’s work.
-+91 744 776 5224,Good morning team. Share what you’ll be working on today.,2/3/2026,9:16 AM,"9:16 AM, 2/3/2026",incoming,False,,
-+91 99796 38667,Update Telegram Lead Automation Project Kal Raat Ye Kaam kiya Python Script puri tarah fix ho gayi hai aur testing bhi successful rahi ab auto login ke liye Session Key generate ho gayi hai jisse hame baar baar OTP nahi dalna padega Aaj Ka Plan Aaj hum n8n workflow bild karenge taaki users ke reply aane par unhe auto reply ja sake iske alava Sir se first message ka content final karunga.,2/3/2026,9:46 AM,"9:46 AM, 2/3/2026",incoming,True,Unknown,Good morning team. Share what you’ll be working on today.
-You,I'll modify the scraped data according to the workflow made so that we can achieve our goal of Mass DM,2/3/2026,10:30 AM,"10:30 AM, 2/3/2026",outgoing,True,Unknown,Good morning team. Share what you’ll be working on today.
-+91 744 776 5224,Good evening team. Share a quick update on what you worked on today.,2/3/2026,7:04 PM,"7:04 PM, 2/3/2026",incoming,False,,
-+91 99796 38667,Aaj ka Work Update Aaj ka pura din humne deep research aur brainstorming me lagaya kyunki hume ek aisa solution chahiye tha jo long term chale aur safe ho Humne realize kiya ki agar hum direct personal number se automation karenge to risk bahut zyada hai isliye aaj humne ek best Architecture design kiya hai Is naye plan ke hisab se hum personal ID ko sirf Invite ke liye use karenge aur chatting ke liye user ko hamare AI Bot par shift kar denge isse fayda ye hoga ki hamara system 24/7 chalega bhale hi mera PC band ho aur account ban hone ka dar bhi nahi rahega Plan puri tarah ready hai aur ab me iska practically step 1 pr work start kar diya hai.,2/3/2026,7:34 PM,"7:34 PM, 2/3/2026",incoming,True,Unknown,Good evening team. Share a quick update on what you worked on today.
-You,"Maine dataset modify kiya tha and upgrade karne ka try kiya, currently I'm trying to scrape data from the Instagram too so that we can get users from other platform too",2/3/2026,7:57 PM,"7:57 PM, 2/3/2026",outgoing,True,Unknown,Good evening team. Share a quick update on what you worked on today.
-+91 744 776 5224,Good morning. Share your plan for today in the group. Also make sure to respond in the group whenever any message is posted. — Anchal HR Manager,2/4/2026,9:55 AM,"9:55 AM, 2/4/2026",incoming,False,,
-Unknown,"Anurag, I didn’t receive your update yesterday.",2/4/2026,10:03 AM,"10:03 AM, 2/4/2026",incoming,False,,
-+91 744 776 5224,@+91 62668 85103,2/4/2026,10:03 AM,"10:03 AM, 2/4/2026",incoming,True,Unknown,"Anurag, I didn’t receive your update yesterday."
-+91 99796 38667,Good Morning. Today Work Plan Aaj ka work plan ye hai ki Ek Aesa AI Agent Bana rha hu jo users ke sath hamare diye hue instructions ke hisab se bat kre aur hamari global community me add kre aur Ye Agent Ko trend krunga aur last mein testing.,2/4/2026,10:06 AM,"10:06 AM, 2/4/2026",incoming,True,Unknown,"Good morning. Share your plan for today in the group. Also make sure to respond in the group whenever any message is posted.
-
-— Anchal
-HR Manager"
-+91 62668 85103,Yes mam I will share my updated shortly,2/4/2026,10:08 AM,"10:08 AM, 2/4/2026",incoming,True,Unknown,"Good morning. Share your plan for today in the group. Also make sure to respond in the group whenever any message is posted.
-
-— Anchal
-HR Manager"
-Unknown,"Mam, I am working on an Autonomous AI Agent for Recruitment Automation. Currently, I am implementing MCP to enable agents to access external tools and applications for automation tasks.",2/4/2026,10:48 AM,"10:48 AM, 2/4/2026",incoming,False,,
-+91 744 776 5224,"Hi team, share a quick update on today’s work.",2/4/2026,9:06 PM,"9:06 PM, 2/4/2026",incoming,False,,
-+91 99796 38667,Today's Work 1 Meet With Ankursir 2 Reacherch about Lead Automation Project Tools 3 Bilding... workflow about Chat With users,2/4/2026,9:17 PM,"9:17 PM, 2/4/2026",incoming,True,Unknown,"Hi team, share a quick update on today’s work."
-You,Today's work Meet with team Tried to automate the messages Wrote a script for data extracting,2/5/2026,12:30 AM,"12:30 AM, 2/5/2026",outgoing,False,,
-+91 744 776 5224,"Team, share today’s work plan.",2/5/2026,10:09 AM,"10:09 AM, 2/5/2026",incoming,False,,
-+91 99796 38667,Aaj humara main focus Personal AI Automation system ko complete karne par rahega. Ek aisa advanced workflow develop karna jo incoming messages ko detect kare aur personally reply send kar sake. System ko train karna taaki wo context samajh kar smart aur human-like conversation kar sake. Goal : Aaj ek Automation ready karna jo automatically personal chat manage kare.,2/5/2026,10:22 AM,"10:22 AM, 2/5/2026",incoming,True,Unknown,"Team, share today’s work plan."
-+91 744 776 5224,"Team, share today’s work update along with your progress.",2/5/2026,7:59 PM,"7:59 PM, 2/5/2026",incoming,False,,
-+91 99796 38667,"Aaj mene apne AI Automation Project ke backend infrastructure aur n8n setup par kaam kiya. Core system successfully completed ho chuka hai. Lekin, Telegram API integration (MTProto) ke dauran ek unexpected technical glitch face karna pada. External plugin installation mein package corruption ki wajah se module sahi tarike se load nahi ho raha hai. mene pichle 7-8 ghante extensive debugging aur root cause analysis mein lagaye hain. Aakhri Step pe atak gya hu, aur me isse resolve karne ke liye alternative solutions par kaam kar raha hain. Abhi mai aesa tool find kr rha hu ki jo Groups me jake active users ko automatic DM kar sake Abhi Aisa Koi tool ya workflow banane ke bare mein thinking kar raha hun ki jo directly users se chat kar sake automation per. Thank you for your patience",2/5/2026,8:07 PM,"8:07 PM, 2/5/2026",incoming,True,Unknown,"Team, share today’s work update along with your progress."
-You,Today I wrote a script for automating messages to users on telegram using selenium,2/5/2026,11:52 PM,"11:52 PM, 2/5/2026",outgoing,False,,
-Unknown,"Good Morning team, share today’s work plan.",2/6/2026,9:43 AM,"9:43 AM, 2/6/2026",incoming,False,,
-+91 744 776 5224,"@+91 62668 85103, I didn’t receive your update yesterday.",2/6/2026,9:43 AM,"9:43 AM, 2/6/2026",incoming,False,,
-+91 99796 38667,Aaj ek aesa Automation create krna hai jo telegram mein users se personal chat kr sake.,2/6/2026,10:05 AM,"10:05 AM, 2/6/2026",incoming,True,Unknown,"Good Morning team, share today’s work plan."
-+91 744 776 5224,@+91 62668 85103 ?,2/6/2026,10:20 AM,"10:20 AM, 2/6/2026",incoming,False,,
-You,I have to scrape messages from Facebook and whatsapp groups,2/6/2026,10:32 AM,"10:32 AM, 2/6/2026",outgoing,True,Unknown,"Good Morning team, share today’s work plan."
-+91 62668 85103,"Ma’am, I am currently working on MCP servers to integrate them with the chatbot and build an automation system.",2/6/2026,12:52 PM,"12:52 PM, 2/6/2026",incoming,True,Unknown,"Good Morning team, share today’s work plan."
-+91 744 776 5224,"Hi team, share a update on today’s work.",2/6/2026,6:40 PM,"6:40 PM, 2/6/2026",incoming,False,,
-+91 99796 38667,Today's Work Today I work on Lead Automation chat. Explore Different ways of Automation.,2/6/2026,9:20 PM,"9:20 PM, 2/6/2026",incoming,True,Unknown,"Hi team, share a update on today’s work."
-You,"Today I tried to extract data from Facebook groups, I was searching for an API that I could directly use",2/6/2026,9:57 PM,"9:57 PM, 2/6/2026",outgoing,True,Unknown,"Hi team, share a update on today’s work."
-Ankur Sir Promope,https://www.udemy.com/course/ai-hr-agents-no-code-hr-automation-on-chatgpt-and-more-en/?couponCode=PAPAHR_FEB_05,2/6/2026,10:16 PM,"10:16 PM, 2/6/2026",incoming,True,Unknown,"Ma’am, I am currently working on MCP servers to integrate them with the chatbot and build an automation system."
-+91 744 776 5224,"Team, share your plan for today.",2/7/2026,10:19 AM,"10:19 AM, 2/7/2026",incoming,False,,
-+91 99796 38667,Today's Work Plan 1 ) Problem solve about Personal chat Automation. 2) Meet With Sir.,2/7/2026,10:31 AM,"10:31 AM, 2/7/2026",incoming,True,Unknown,"Team, share your plan for today."
-Unknown,Solve kro project fr ap logo ko ek trip krwate h,2/7/2026,7:38 PM,"7:38 PM, 2/7/2026",incoming,False,,
-Unknown,@+91 870 826 9340 Connect meet today too much time gone,2/7/2026,7:39 PM,"7:39 PM, 2/7/2026",incoming,False,,
-Unknown,@+91 62668 85103 update what you are doing?,2/7/2026,7:39 PM,"7:39 PM, 2/7/2026",incoming,False,,
-+91 744 776 5224,"Team, share your plan for today.",2/9/2026,10:21 AM,"10:21 AM, 2/9/2026",incoming,False,,
-+91 99796 38667,Today's Work Testing And Improve of Leads Automation AI Agent.,2/9/2026,10:44 AM,"10:44 AM, 2/9/2026",incoming,True,Unknown,"Team, share your plan for today."
-You,"Today, I'll be working on scraping data from Facebook groups",2/9/2026,10:55 AM,"10:55 AM, 2/9/2026",outgoing,True,Unknown,"Team, share your plan for today."
-Unknown,Asa KCH set kriy,2/9/2026,12:52 PM,"12:52 PM, 2/9/2026",incoming,False,,
-Unknown,https://www.facebook.com/share/r/17KmQhiZyj/,2/9/2026,12:52 PM,"12:52 PM, 2/9/2026",incoming,False,,
-Unknown,@Palak Bansal update,2/9/2026,7:22 PM,"7:22 PM, 2/9/2026",incoming,False,,
-Unknown,@+91 744 776 5224 @+91 62668 85103 is not working properly kindly do the needful,2/9/2026,7:23 PM,"7:23 PM, 2/9/2026",incoming,False,,
-You,Sir scraping of facebook groups post is done,2/9/2026,7:53 PM,"7:53 PM, 2/9/2026",outgoing,True,Ankur Sir Promope,@Palak Bansal update
-+91 744 776 5224,"Good morning team, share your plan for today.",2/10/2026,10:20 AM,"10:20 AM, 2/10/2026",incoming,False,,
-+91 99796 38667,"Hello Aaj main wo ""Repeat Message"" wali problem fix kar raha hu. Maine system mein ek Permanent Memory (Record File) add kar di hai. Ab system ko hamesha yaad rahega ki kisko message bhej chuka hai. Agli baar start karne par wo unhe Skip kar dega aur sirf naye logo ko hi message bhejega. Ab duplicate message ki galti nahi hogi. System full smart ho gaya hai!",2/10/2026,11:34 AM,"11:34 AM, 2/10/2026",incoming,True,Unknown,"Good morning team, share your plan for today."
-+91 744 776 5224,"Hi team, share a update on today’s work. @+91 62668 85103 @Palak Bansal @+91 99796 38667",2/10/2026,6:27 PM,"6:27 PM, 2/10/2026",incoming,False,,
-+91 99796 38667,"Aaj maine wo Repeat Message wali galti (error) fix kar di hai. System mein ab ek Permanent Memory laga di hai. Isse system ko yaad rahega ki kisko message bhej chuka hai, aur wo unhe Skip kar dega. Ab purane logon ko dobara message nahi jayega.",2/10/2026,7:54 PM,"7:54 PM, 2/10/2026",incoming,True,Unknown,"Hi team, share a update on today’s work.
-@+91 62668 85103 @Palak Bansal @+91 99796 38667"
-Unknown,"Subject: Leave Request: Feb 11-13 (Brothers' Wedding) Hi Sir, I would like to inform you that I will be on leave from Feb 11th to Feb 13th due to my brothers' wedding. I will be back online on Feb 14th. Thanks, Ranjit Makvana",2/10/2026,8:03 PM,"8:03 PM, 2/10/2026",incoming,False,,
-+91 744 776 5224,"Team, share your work plan for today.",2/11/2026,10:03 AM,"10:03 AM, 2/11/2026",incoming,False,,
-+91 744 776 5224,"Hi Ranjit, Noted. Your leave from Feb 11–13 is approved. See you back on Feb 14.",2/11/2026,10:05 AM,"10:05 AM, 2/11/2026",incoming,True,Unknown,"Subject: Leave Request: Feb 11-13 (Brothers' Wedding)
-
-Hi Sir,
-
-I would like to inform you that I will be on leave from Feb 11th to Feb 13th due to my brothers' wedding.
-
-I will be back online on Feb 14th.
-
-Thanks,
-Ranjit Makvana"
-Unknown,"Hi @+91 62668 85103, We’ve noticed that your responses have been a bit irregular lately, and some tasks are getting delayed. Please take this seriously and try to stay more consistent with communication and timelines. It really helps the team stay on track.",2/11/2026,10:38 AM,"10:38 AM, 2/11/2026",incoming,False,,
-+91 744 776 5224,"Hi team, share a update on today’s work.",2/11/2026,6:29 PM,"6:29 PM, 2/11/2026",incoming,False,,
-Unknown,"Good morning, team. Kindly share your plan for today.",2/12/2026,9:47 AM,"9:47 AM, 2/12/2026",incoming,False,,
-+91 744 776 5224,@Palak Bansal yesterday update.,2/12/2026,9:47 AM,"9:47 AM, 2/12/2026",incoming,False,,
-You,"Yesterday I worked on the Instagram scraping part, extracting mails from users bio",2/12/2026,11:01 AM,"11:01 AM, 2/12/2026",outgoing,True,Unknown,@Palak Bansal yesterday update.
-You,"Today I will be adding the code in the rdp, and will connect with sir",2/12/2026,11:02 AM,"11:02 AM, 2/12/2026",outgoing,True,Unknown,"Good morning, team. Kindly share your plan for today."
+If someone felt hurt i apologise"
+Unofficial cse section B,+91 98997 45351,+1,2/8/2026,11:41 AM,"11:41 AM, 2/8/2026",incoming,True,Ritika Budhirajaa,"It's not like that bhaiya . Becoz uh urself got frank first by asking question out of the box and if the person got frank with uh uh r urself pulling out etiquettes and all .. 
+That person is ur junior but he doesn't knows about uhh .Who you are"
+Unofficial cse section B,+91 88820 43374,"""BAAP"" word is little disrespectfull",2/8/2026,1:53 PM,"1:53 PM, 2/8/2026",incoming,True,Unknown,"We respect and appreciate the fact that you were one of the people who contributed to the formation of the society in our institution of higher learning. Nevertheless, your description of yourself as the “BAAP” of the society is unacceptable, unprofessional, and does not illustrate the fundamental character expected in the society. We, in our current core team, will not tolerate someone talking to our members in that way."
+Unofficial cse section B,+91 70335 86679,+1,2/8/2026,2:09 PM,"2:09 PM, 2/8/2026",incoming,True,Unknown,"""BAAP"" word is little disrespectfull"
+Unofficial cse section B,+91 98997 45351,Company: Cisco Role: SDE Intern (Female only) Batch Eligible: 2028 graduates (Females only) Location: Bangalore Apply Link: https://careers.cisco.com/global/en/job/2006873/Software-Engineer-Intern-Cisco-Women-Internship-Program,2/10/2026,11:02 AM,"11:02 AM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,Anyone attending the AI summit on 18/19?,2/10/2026,11:04 AM,"11:04 AM, 2/10/2026",incoming,False,,
+Unofficial cse section B,+91 85952 54276,..,2/10/2026,11:12 AM,"11:12 AM, 2/10/2026",incoming,True,Harsh Bhaiya Passout,Attending AI impact summit New Delhi
+Unofficial cse section B,Unknown,Moderate size high quality portable speaker as a recommendation?,2/10/2026,1:15 PM,"1:15 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,"I have a special liking for Bose (personally), never listened to marshall",2/10/2026,1:16 PM,"1:16 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,"Marshall is crystal clear, however pricing doesnt make up to the quality difference imho",2/10/2026,1:34 PM,"1:34 PM, 2/10/2026",incoming,True,Siddharth Upadh. 2nd,"I have a special liking for Bose (personally),  never listened to marshall"
+Unofficial cse section B,Unknown,In summary marshall is too overpriced for the quality they give ?,2/10/2026,1:46 PM,"1:46 PM, 2/10/2026",incoming,True,Dhruv Gera 2nd,"Marshall is crystal clear, however pricing doesnt make up to the quality difference imho"
+Unofficial cse section B,Unknown,"The Bose speaker my uncle bought for 20k in 2014s, is 60-80k today",2/10/2026,1:47 PM,"1:47 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,+91 78274 05893,Gold ki jgh ye khareed lete hai,2/10/2026,2:03 PM,"2:03 PM, 2/10/2026",incoming,True,Siddharth Upadh. 2nd,"The Bose speaker my uncle bought for 20k in 2014s, is 60-80k today"
+Unofficial cse section B,Siddharth Upadh. 2nd,I can give better recommendations,2/10/2026,2:06 PM,"2:06 PM, 2/10/2026",incoming,True,Vansh,Gold ki jgh ye khareed lete hai
+Unofficial cse section B,Harsh Bhaiya Passout,Just start buying prem end watches instead,2/10/2026,2:13 PM,"2:13 PM, 2/10/2026",incoming,True,Vansh,Gold ki jgh ye khareed lete hai
+Unofficial cse section B,+91 85952 54276,Copper,2/10/2026,2:17 PM,"2:17 PM, 2/10/2026",incoming,True,Harsh Bhaiya Passout,Just start buying prem end watches instead
+Unofficial cse section B,Unknown,Limited editions if you can,2/10/2026,2:20 PM,"2:20 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,Sell it back to rich dudes,2/10/2026,2:20 PM,"2:20 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,Years later and make money,2/10/2026,2:20 PM,"2:20 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,True,2/10/2026,2:20 PM,"2:20 PM, 2/10/2026",incoming,True,Harsh Bhaiya Passout,Just start buying prem end watches instead
+Unofficial cse section B,Unknown,People don't realize the amount of money one person can make just by being a con man,2/10/2026,2:21 PM,"2:21 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,For example if someone needs a 1TB SSD Samsung let me know,2/10/2026,2:22 PM,"2:22 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,Me when it's time to sell the assets I have accumulated when people were penny broke:,2/10/2026,2:24 PM,"2:24 PM, 2/10/2026",incoming,True,Siddharth Upadh. 2nd,GIF
+Unofficial cse section B,+91 85952 54276,BETTER CALL SID,2/10/2026,2:35 PM,"2:35 PM, 2/10/2026",incoming,True,Siddharth Upadh. 2nd,Me when it's time to sell the assets I have accumulated when people were penny broke:
+Unofficial cse section B,Siddharth Upadh. 2nd,The only person who gets the joke in the group,2/10/2026,4:30 PM,"4:30 PM, 2/10/2026",incoming,True,Unknown,BETTER CALL SID
+Unofficial cse section B,Unknown,Kya koi noc bhejega aapni ki kesi dikhti h,2/10/2026,5:30 PM,"5:30 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,+91 99711 85480,groq,2/10/2026,5:36 PM,"5:36 PM, 2/10/2026",incoming,True,Mridul Chaudhary,Photo
+Unofficial cse section B,Unknown,Ooooooooooo,2/10/2026,5:37 PM,"5:37 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,U mean grok?,2/10/2026,5:37 PM,"5:37 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,+91 99711 85480,omagah....,2/10/2026,5:37 PM,"5:37 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,Unknown,groq will do what gpt wont,2/10/2026,5:37 PM,"5:37 PM, 2/10/2026",incoming,False,,
+Unofficial cse section B,+91 99711 85480,yup that hi,2/10/2026,5:38 PM,"5:38 PM, 2/10/2026",incoming,True,Mridul Chaudhary,U mean grok?
+Unofficial cse section B,Unknown,Use deepseek it has no morals,2/11/2026,5:34 PM,"5:34 PM, 2/11/2026",incoming,True,Mridul Chaudhary,Photo
+Unofficial cse section B,Unknown,Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation \ Anthropic https://share.google/qa1VBcHfrFQBXUsGK,2/13/2026,8:34 AM,"8:34 AM, 2/13/2026",incoming,False,,
+Unofficial cse section B,Unknown,has anyone worked on machine translation here ?,2/13/2026,1:39 PM,"1:39 PM, 2/13/2026",incoming,False,,
+Unofficial cse section B,+91 92052 29659,"Happy Birthday! @+91 70335 86679 Wishing you a year filled with meaningful growth, successful projects, and achievements that reflect your hard work. May every challenge become a learning experience and every effort turn into something you’re proud of. Keep building, innovating, and representing the Tech Society with dedication. Looking forward to seeing you create impactful work in the AI/ML space ahead. Have a great year ahead",2/14/2026,9:06 AM,"9:06 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 97181 79925,Happy Birthday @+91 70335 86679,2/14/2026,9:08 AM,"9:08 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 93114 70171,Happy Birthday @+91 70335 86679 bhai,2/14/2026,9:10 AM,"9:10 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,Happy Birthday,2/14/2026,9:13 AM,"9:13 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 88821 82578,@+91 70335 86679 Happy birthday Bhaiyaaa,2/14/2026,9:19 AM,"9:19 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,Unknown,Aaj toh bde logo ka birthday h,2/14/2026,9:28 AM,"9:28 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,Unknown,Happy birthday @+91 70335 86679,2/14/2026,9:29 AM,"9:29 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,Unknown,tf is bade log,2/14/2026,9:29 AM,"9:29 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 70335 86679,bhidu,2/14/2026,9:29 AM,"9:29 AM, 2/14/2026",incoming,True,Mridul Chaudhary,Aaj toh bde logo ka birthday h
+Unofficial cse section B,Unknown,Or explain kru?,2/14/2026,9:30 AM,"9:30 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,Unknown,Jinki ek dusri pehchan bhi h,2/14/2026,9:30 AM,"9:30 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 85870 40727,Happy birthday @⁨~मुद्गल⁩,2/14/2026,9:42 AM,"9:42 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,Unknown,Happy Birthday @+91 70335 86679 bhai,2/14/2026,9:47 AM,"9:47 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 70335 86679,no pls,2/14/2026,9:48 AM,"9:48 AM, 2/14/2026",incoming,True,Mridul Chaudhary,Or explain kru?
+Unofficial cse section B,+91 99711 85480,sus,2/14/2026,9:49 AM,"9:49 AM, 2/14/2026",incoming,True,Unknown,no pls
+Unofficial cse section B,+91 870 081 6308,Happy birthday,2/14/2026,9:49 AM,"9:49 AM, 2/14/2026",incoming,True,Unknown,no pls
+Unofficial cse section B,+91 98103 72956,Happy birthday @+91 70335 86679,2/14/2026,10:10 AM,"10:10 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,Unknown,Happy Birthday @+91 70335 86679,2/14/2026,11:16 AM,"11:16 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 98187 42460,Happy Birthday @+91 70335 86679,2/14/2026,11:16 AM,"11:16 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 70335 86679,no sus,2/14/2026,11:19 AM,"11:19 AM, 2/14/2026",incoming,True,Unknown,sus
+Unofficial cse section B,Unknown,Happy birthday @+91 70335 86679,2/14/2026,11:28 AM,"11:28 AM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 98103 45977,pic btw Happy birthday,2/14/2026,1:10 PM,"1:10 PM, 2/14/2026",incoming,True,Unknown,"Happy Birthday!  @+91 70335 86679
+Wishing you a year filled with meaningful growth, successful projects, and achievements that reflect your hard work.  
+May every challenge become a learning experience and every effort turn into something you’re proud of.  
+Keep building, innovating, and representing the Tech Society with dedication.  
+Looking forward to seeing you create impactful work in the AI/ML space ahead.  
+Have a great year ahead"
+Unofficial cse section B,+91 70335 86679,haha thankyou,2/14/2026,1:19 PM,"1:19 PM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 78272 86494,Happy Birthday @+91 70335 86679,2/14/2026,1:21 PM,"1:21 PM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 94161 79563,Happy Birthday @+91 70335 86679,2/14/2026,1:23 PM,"1:23 PM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 98997 45351,"“Debate is the art of thinking aloud.” “When you change sides, you sharpen your mind.” We are back with another electrifying intellectual showdown! THE DISCURSO MASTERS proudly presents its dynamic debate event – Flipside Forum (A Turncoat Debate Competition). Date: 19th February 2026 Time: 9:00 AM onwards Occasion: Day 1 of Utkarsh Fest Venue: Moot Court, First Block, ADGIPS Event: Flipside Forum (Turncoat Debate Competition) Entry Fee:₹149 per participant Prize: Cash prizes for the winners and trophies!! *Registration Link:* https://forms.gle/NEUCGSGq74vdGP7J7 The event aims to challenge perspectives, enhance critical thinking, and cultivate confidence, eloquence, and commanding stage presence among students. In this uniq…",2/14/2026,1:40 PM,"1:40 PM, 2/14/2026",incoming,False,,
+Unofficial cse section B,Unknown,Happy birthday @+91 70335 86679,2/14/2026,2:12 PM,"2:12 PM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 95602 65126,"LOGICRUSH HACKATHON 2026 – REGISTRATIONS OPEN! Ready to test your logic, coding & innovation skills? Don’t miss this power-packed tech showdown! Why you should join? Real-world problem statements Build PPT / Working UI prototype Compete with top innovators Boost your resume & skills Exciting prizes & recognition Refreshments also provided for participants Prizes & Rewards: Gift Hampers Participation Certificate Exclusive Goodies Registration Details: Round 1: FREE (Online Quiz) ₹50 Registration Fee for Round 2 (Offline) Round 2 & Round 3 will be conducted at ADGIPS College Competition Format: Round 1: Online Quiz (Logic + Aptitude + Problem Solving) Round 2: Offline Hackathon (5–6 hrs) – ADGIPS Campu…",2/14/2026,3:09 PM,"3:09 PM, 2/14/2026",incoming,False,,
+Unofficial cse section B,Unknown,"g-g-g-g-g… give me a corpse. VLR VORTEX returns. Invincibles brings VLR VORTEX back with UTKARSH 2026, at Dr. Akhilesh Das Gupta Institute of Professional Studies (formerly ADGITM). Event Dates & Venue: Online Qualifiers: TBA Offline Main Event: 20 February 2026 Venue: Dr. Akhilesh Das Gupta Institute of Professional Studies (formerly ADGITM) Eligibility Offline event — DELHI participants only PRIZE POOL UPTO ₹5,000 Registration: Form: https://forms.gle/tNJWYrgAzHienbK26 ₹150 — Full 5-player team ₹40 — Solo players No team? No problem. We’ll find you a squad. Updates: Brackets, schedules, and match updates via: https://chat.whatsapp.com/IohBMylusctFFlw8586DL7 https://www.instagram.com/vlr.vortex/ Contact Shubham: +91 8847252714…",2/14/2026,3:13 PM,"3:13 PM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 85952 54276,"“Every allegation demands an answer. Every reputation deserves a defence.” Quintessence - The Official Debating Society of ADGIPS proudly presents ADABI 5.0 | The Literary Fest A three-day celebration of debate, discourse, and decisive thinking, where ideas are tested, characters are defended, and verdicts are earned. EVENTS LINE-UP Day 1, 19TH FEBRUARY REDEMPTION: Personality Debate Day 2, 20TH FEBRUARY VERDICT: Multilevel Debate Day 3, 21ST, FEBRUARY CONTENTIO: Conventional Debate Venue: Dr. Akhilesh Das Gupta Institute of Professional Studies Nearest Metro: Kashmere Gate Metro Station (Gate No. 4) For Registrations, Rules & Updates: https://linktr.ee/ADABI_5.0 For Queries, kindly contact: Harsh: +91 76199 974…",2/14/2026,3:28 PM,"3:28 PM, 2/14/2026",incoming,False,,
+Unofficial cse section B,+91 85952 54276,Alright,2/14/2026,3:28 PM,"3:28 PM, 2/14/2026",incoming,False,,

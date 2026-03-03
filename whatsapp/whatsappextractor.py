@@ -24,30 +24,52 @@ def wait_for_qr_scan(driver, timeout=60):
     except TimeoutException:
         print("❌ QR code scan timeout")
         return False
-
 def open_group(driver, group_name):
     """Open a specific group chat"""
     try:
         print(f"🔍 Looking for group: {group_name}")
         
-        # Click search
+        # Find search box
         search_box = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "div[contenteditable='true'][data-tab='3']"))
         )
         search_box.click()
         time.sleep(1)
         
-        # Clear any existing text
-        search_box.clear()
+        # ROBUST CLEARING - Multiple methods to ensure it's clean
+        # Method 1: Select all and delete
+        search_box.send_keys(Keys.CONTROL + "a")
+        time.sleep(4)
+        search_box.send_keys(Keys.BACKSPACE)
+        time.sleep(4)
+        
+        # Method 2: Try .clear() as backup
+        try:
+            search_box.clear()
+        except:
+            pass
+        
+        # Method 3: Send multiple backspaces to be absolutely sure
+        for _ in range(len(group_name)+3):
+            search_box.send_keys(Keys.BACKSPACE)
+        
+        time.sleep(5)
+        print(f"  🧹 Cleared search box")
         
         # Type group name
         search_box.send_keys(group_name)
-        time.sleep(3)
+        print(f"  ⌨️ Typed: '{group_name}'")
+        time.sleep(6)
         
         # Click first result
         first_result = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "div[role='gridcell']"))
         )
+        
+        # Optional: Verify what we're clicking
+        result_text = first_result.text
+        print(f"  📌 Clicking on: '{result_text[:50]}'")
+        
         first_result.click()
         
         print(f"✅ Opened group: {group_name}")
@@ -56,9 +78,10 @@ def open_group(driver, group_name):
         
     except Exception as e:
         print(f"❌ Failed to open group: {e}")
+        import traceback
+        traceback.print_exc()
         return False
-
-def extract_single_message(msg, idx):
+def extract_single_message(msg, idx,group_name):
     """Extract data from a single message element"""
     try:
         # Determine if it's incoming or outgoing
@@ -201,6 +224,7 @@ def extract_single_message(msg, idx):
             
             message_entry = {
                 'message_id': message_id,
+                "group_name":group_name,
                 'sender': sender_name,
                 'message': cleaned_message,
                 'date': date,
@@ -220,7 +244,7 @@ def extract_single_message(msg, idx):
         # Silently skip messages that can't be extracted
         return None
 
-def extract_and_scroll(driver, num_scrolls=50):
+def extract_and_scroll(driver, group_name,num_scrolls=20):
     """Extract messages incrementally while scrolling"""
     print(f"📜 Starting incremental extraction with {num_scrolls} scrolls...")
     
@@ -242,7 +266,7 @@ def extract_and_scroll(driver, num_scrolls=50):
                 
                 extracted_count = 0
                 for idx, msg in enumerate(messages):
-                    message_data = extract_single_message(msg, idx)
+                    message_data = extract_single_message(msg, idx,group_name)
                     if message_data:
                         msg_id = message_data['message_id']
                         if msg_id not in all_messages:
@@ -267,7 +291,7 @@ def extract_and_scroll(driver, num_scrolls=50):
             
             extracted_count = 0
             for idx, msg in enumerate(messages):
-                message_data = extract_single_message(msg, idx)
+                message_data = extract_single_message(msg, idx,group_name)
                 if message_data:
                     msg_id = message_data['message_id']
                     if msg_id not in all_messages:
@@ -289,8 +313,6 @@ def extract_and_scroll(driver, num_scrolls=50):
         import traceback
         traceback.print_exc()
         return list(all_messages.values())
-
-
 def main():
     # Setup Chrome
     options = Options()
@@ -308,69 +330,99 @@ def main():
         if not wait_for_qr_scan(driver):
             return
         
-        # Group name to extract from
-        group_name = "PromoPe AI automation intern"
+        # Group names to extract from
+        group_list = ["PromoPe AI automation intern", "Unofficial cse section B"]
+        print(f"\n📋 Will extract from {len(group_list)} groups: {group_list}")
         
-        # Open the group
-        if open_group(driver, group_name):
-            # Extract messages incrementally while scrolling
-            messages = extract_and_scroll(driver, num_scrolls=50)
+        all_groups_messages = []  # Collect all messages here
+        
+        # Open each group and extract messages
+        for group_idx, group_name in enumerate(group_list, 1):
+            print(f"\n{'='*60}")
+            print(f"Processing group {group_idx}/{len(group_list)}: {group_name}")
+            print(f"{'='*60}")
             
-            # Save to CSV
-            if messages:
-                df = pd.DataFrame(messages)
+            if open_group(driver, group_name):
+                # Extract messages incrementally while scrolling
+                messages = extract_and_scroll(driver, group_name, num_scrolls=20)
                 
-                # Remove the message_id column before saving (it was just for deduplication)
-                df = df.drop('message_id', axis=1)
-                
-                # Sort by datetime if available
-                if len(df[df['full_datetime'] != '']) > 0:
-                    # Create a sortable datetime column
-                    df['sort_key'] = pd.to_datetime(df['full_datetime'], format='%I:%M %p, %m/%d/%Y', errors='coerce')
-                    df = df.sort_values('sort_key', na_position='first')
-                    df = df.drop('sort_key', axis=1)
-                
-                df.to_csv('whatsapp_messages.csv', index=False, encoding='utf-8')
-                print(f"\n✅ Saved {len(messages)} messages to whatsapp_messages.csv")
-                
-                # Show some sample messages with replies
-                if len(df[df['is_reply'] == True]) > 0:
-                    print("\n📝 Sample messages with replies:")
-                    reply_messages = df[df['is_reply'] == True].head(3)
-                    for _, row in reply_messages.iterrows():
-                        print(f"\n[{row['full_datetime']}] {row['sender']} replied to {row['quoted_sender']}:")
-                        print(f"  Quoted: '{row['quoted_text'][:100]}...'")
-                        print(f"  Reply: '{row['message'][:100]}...'")
-                
-                # Extract unique senders (excluding "You")
-                users_df = df[df['sender'] != 'You'][['sender']].drop_duplicates()
-                users_df.to_csv('whatsapp_users.csv', index=False, encoding='utf-8')
-                print(f"\n✅ Found {len(users_df)} unique users (excluding you)")
-                
-                # Show summary
-                print(f"\n📊 Summary:")
-                print(f"Total messages: {len(messages)}")
-                print(f"Your messages: {len(df[df['type'] == 'outgoing'])}")
-                print(f"Others' messages: {len(df[df['type'] == 'incoming'])}")
-                print(f"Messages with replies: {len(df[df['is_reply'] == True])}")
-                print(f"Messages with date info: {len(df[df['date'] != ''])}")
-                
-                # Show date range if available
-                dates_available = df[df['date'] != '']['date'].unique()
-                if len(dates_available) > 0:
-                    print(f"Date range: {dates_available[0]} to {dates_available[-1]}")
-                
-                print(f"\nTop 5 most active users:")
-                print(df[df['sender'] != 'You']['sender'].value_counts().head())
-                
-                # Show sample messages with full datetime
-                if len(df[df['full_datetime'] != '']) > 0:
-                    print("\n📅 Sample messages with date/time:")
-                    sample_with_date = df[df['full_datetime'] != ''].head(3)
-                    for _, row in sample_with_date.iterrows():
-                        print(f"  [{row['full_datetime']}] {row['sender']}: {row['message'][:100]}...")
+                if messages:
+                    all_groups_messages.extend(messages)
+                    print(f"\n✅ Extracted {len(messages)} messages from '{group_name}'")
+                    print(f"📊 Total messages so far: {len(all_groups_messages)}")
+                else:
+                    print(f"\n❌ No messages extracted from '{group_name}'")
             else:
-                print("\n❌ No messages extracted")
+                print(f"\n❌ Failed to open group '{group_name}'")
+            
+            # Add a small delay between groups
+            if group_idx < len(group_list):
+                print(f"\n⏳ Waiting 3 seconds before next group...")
+                time.sleep(3)
+        
+        print(f"\n{'='*60}")
+        print(f"EXTRACTION COMPLETE - Processing {len(all_groups_messages)} total messages")
+        print(f"{'='*60}")
+        
+        # Save once after all groups
+        if all_groups_messages:
+            df = pd.DataFrame(all_groups_messages)
+            
+            # Remove the message_id column before saving (it was just for deduplication)
+            df = df.drop('message_id', axis=1)
+            
+            # Sort by datetime if available
+            if len(df[df['full_datetime'] != '']) > 0:
+                # Create a sortable datetime column
+                df['sort_key'] = pd.to_datetime(df['full_datetime'], format='%I:%M %p, %m/%d/%Y', errors='coerce')
+                df = df.sort_values('sort_key', na_position='first')
+                df = df.drop('sort_key', axis=1)
+            
+            df.to_csv('whatsapp_messages.csv', index=False, encoding='utf-8')
+            print(f"\n✅ Saved {len(all_groups_messages)} messages to whatsapp_messages.csv")
+            
+            # Show some sample messages with replies
+            if len(df[df['is_reply'] == True]) > 0:
+                print("\n📝 Sample messages with replies:")
+                reply_messages = df[df['is_reply'] == True].head(3)
+                for _, row in reply_messages.iterrows():
+                    print(f"\n[{row['group_name']}] [{row['full_datetime']}] {row['sender']} replied to {row['quoted_sender']}:")
+                    print(f"  Quoted: '{row['quoted_text'][:100]}...'")
+                    print(f"  Reply: '{row['message'][:100]}...'")
+            
+            # Extract unique senders (excluding "You")
+            users_df = df[df['sender'] != 'You'][['group_name', 'sender']].drop_duplicates()
+            users_df.to_csv('whatsapp_users.csv', index=False, encoding='utf-8')
+            print(f"\n✅ Found {len(users_df)} unique users (excluding you)")
+            
+            # Show summary
+            print(f"\n📊 Summary:")
+            print(f"Total messages: {len(all_groups_messages)}")
+            print(f"Your messages: {len(df[df['type'] == 'outgoing'])}")
+            print(f"Others' messages: {len(df[df['type'] == 'incoming'])}")
+            print(f"Messages with replies: {len(df[df['is_reply'] == True])}")
+            print(f"Messages with date info: {len(df[df['date'] != ''])}")
+            
+            # Show messages per group
+            print(f"\n📊 Messages per group:")
+            print(df['group_name'].value_counts())
+            
+            # Show date range if available
+            dates_available = df[df['date'] != '']['date'].unique()
+            if len(dates_available) > 0:
+                print(f"\nDate range: {dates_available[0]} to {dates_available[-1]}")
+            
+            print(f"\nTop 5 most active users:")
+            print(df[df['sender'] != 'You']['sender'].value_counts().head())
+            
+            # Show sample messages with full datetime
+            if len(df[df['full_datetime'] != '']) > 0:
+                print("\n📅 Sample messages with date/time:")
+                sample_with_date = df[df['full_datetime'] != ''].head(3)
+                for _, row in sample_with_date.iterrows():
+                    print(f"  [{row['group_name']}] [{row['full_datetime']}] {row['sender']}: {row['message'][:100]}...")
+        else:
+            print("\n❌ No messages extracted from any group")
         
     except Exception as e:
         print(f"❌ Fatal error: {e}")
@@ -383,4 +435,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
