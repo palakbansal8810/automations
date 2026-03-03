@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 import pyperclip
 
 COUNTRY = "India"  # Country name
-PHONE_NUMBER = "+918810447061"  # Just the number without country code
+PHONE_NUMBER = "+918810447061"  
 MESSAGE_TEXT = "Hello, Just wanted to connect."
 CSV_FILE = "telegram_users.csv"
 DELAY_BETWEEN_MESSAGES = (4, 10)
@@ -62,27 +62,26 @@ def login_to_telegram(driver, phone_number):
             
             # Clear existing content and enter phone number
             phone_input.click()
-            time.sleep(2)
+            time.sleep(1)
             
-            # Use JavaScript to set the phone number
-            driver.execute_script("""
-                arguments[0].innerText = '';
-            """, phone_input)
-            time.sleep(0.5)
+            # Select all and delete existing content
+            phone_input.send_keys(Keys.CONTROL + "a")
+            phone_input.send_keys(Keys.DELETE)
+            time.sleep(1)
             
-            driver.execute_script("""
-                arguments[0].innerText = arguments[1];
-                arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
-            """, phone_input, phone_number)
-            
+            # Type the phone number character by character
+            for char in phone_number:
+                phone_input.send_keys(char)
+                time.sleep(0.1)  # Small delay between characters
+           
             print(f"✅ Entered phone number: {phone_number}")
             time.sleep(2)
             
             # Press Enter or click Next button
+            time.sleep(4)
             next_button = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//button//span[contains(text(), 'Next')]/ancestor::button"))
             )
-
             driver.execute_script("arguments[0].click();", next_button)
             print("✅ Clicked Next (JS)")
             time.sleep(5)

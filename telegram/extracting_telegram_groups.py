@@ -14,8 +14,19 @@ driver = webdriver.Chrome(
     service=Service(ChromeDriverManager().install()),
     options=options
 )
+categories=['art-design','auto-moto','betting','blogs','books-magazine','business-startups','celebrities','communication','airdrop','cryptocurrencies','crypto-fx-trading','economics-politics','education'
+          'entertainment','fashion-beauty','food','games-apps','health','languages','love','marketing','travel','telegram-miniapp-games','sports-fitness','music','videos-movies']
 
-MAIN_URL = "https://telegramchannels.me/groups?category=airdrop&sort=members"
+print(categories)
+
+category= input("Choose any category from above categories, make sure it should be in the list\n")
+category=category.lower()
+if category in categories:
+    MAIN_URL = f"https://telegramchannels.me/groups?category={category}&sort=members"
+else:
+    print("Category is not in the list, going with the airdrop")
+    category='airdrop'
+    MAIN_URL = f"https://telegramchannels.me/groups?category={category}&sort=members"
 driver.get(MAIN_URL)
 time.sleep(5)
 
@@ -62,7 +73,8 @@ for link in group_page_links:
     results.append({
         "group_name": group_name,
         "group_page": link,
-        "telegram_link": telegram_link
+        "telegram_link": telegram_link,
+        "category":category
     })
 
     print(group_name, telegram_link)
@@ -70,10 +82,10 @@ for link in group_page_links:
 driver.quit()
 
 # Save to CSV
-with open("telegram_groups_final.csv", "w", newline="", encoding="utf-8") as f:
+with open("telegram_groups_final.csv", "a", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(
         f,
-        fieldnames=["group_name", "group_page", "telegram_link"]
+        fieldnames=["group_name", "group_page", "telegram_link",'category']
     )
     writer.writeheader()
     writer.writerows(results)

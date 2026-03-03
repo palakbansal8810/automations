@@ -22,7 +22,6 @@ Results are saved to `instagram_leads.csv` (append mode, so you don’t lose pre
 
 ## 🛠 Requirements
 
-- Python 3.8+  
 - Google Chrome  
 - ChromeDriver (auto-managed via `webdriver-manager`)
 
@@ -32,11 +31,18 @@ Install dependencies:
 pip install selenium==4.35.0 webdriver-manager
 ```
 
-▶️ How to Run
+ How to Run
+```bash
+cd instagram
+```
 ```bash
 python extracting_influencers.py
 ```
+then run for removing duplicates and insta url
 
+```bash
+python remove_duplicates.py
+```
 ## Steps:
 
 - run the file via python extracting_influencers.py
