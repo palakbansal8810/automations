@@ -64,9 +64,9 @@ OUTPUT_FILE = "instagram_leads.csv"
 Columns:
 
 username
-
+followers
 emails
-
 bio
-
-category (hashtag used)
+profile_category 
+hashtag used
+profile_url
